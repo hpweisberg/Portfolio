@@ -4,6 +4,8 @@ const Landing = () => {
   return ( 
     <>
     <div className={styles.landing}></div>
+    <div className={styles.landingSand}></div>
+    <div className={styles.harrison}></div>
     </>
   )
 }
