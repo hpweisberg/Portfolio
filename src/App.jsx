@@ -12,11 +12,9 @@ function App() {
   return (
     <>
         <Nav></Nav>
-      <main>
         <Routes>
           <Route path='/' element={<Landing />} />
         </Routes>
-      </main>
     </>
   );
 }

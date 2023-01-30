@@ -5,6 +5,7 @@ const Nav = () => {
     <>
       <nav className="navigation-bar">
         <NavLink to='/' id='logo'>Harrison</NavLink>
+        
       </nav>
     </>
   )
