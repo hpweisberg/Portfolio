@@ -7,6 +7,9 @@ import './App.css';
 
 //! Components
 import Landing from './Pages/Landing/Landing';
+import About from './Pages/About/About';
+import Projects from './Pages/Projects/Projects';
+import Connect from './Pages/Connect/Connect';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Nav></Nav>
         <Routes>
           <Route path='/' element={<Landing />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Projects' element={<Projects />} />
+          <Route path='/Connect' element={<Connect />} />
         </Routes>
     </>
   );

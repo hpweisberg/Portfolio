@@ -1,0 +1,8 @@
+.navigation-bar {
+  border: 1 red solid;
+}
+
+a {
+  font-size: var(--fs-700);
+
+}
