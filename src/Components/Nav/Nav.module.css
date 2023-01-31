@@ -1,8 +1,104 @@
-.navigation-bar {
-  border: 1 red solid;
+.navigationBar {
+  font-family: var(--);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12em;
+  height: 5em;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+
+  /* UI Properties */
+background: transparent linear-gradient(180deg, #00050FB5 0%, #00050F4B 100%) 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 1;
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
 }
 
 a {
-  font-size: var(--fs-700);
+  font-size: var(--fs-nav);
+  text-decoration: none;
+}
 
+.navAPC > * {
+  /* background-color: green; */
+  padding: 0 1rem;
+}
+
+#logo {
+  
+  /* background-color: purple; */
+  font-size: var(--fs-nav);
+  /* color: rebeccapurple; */
+
+  /* Layout Properties */
+top: 23px;
+left: 179px;
+width: 129px;
+height: 61px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-45)/var(--unnamed-line-spacing-61) var(--unnamed-font-family-open-sans);
+letter-spacing: var(--unnamed-character-spacing-0-45);
+color: var(--unnamed-color-dbdce0);
+text-align: left;
+font: normal normal normal 45px/61px Open Sans;
+letter-spacing: 0.45px;
+color: #DBDCE0;
+opacity: 1;
+}
+
+#about {
+  /* Layout Properties */
+top: 23px;
+left: 1152px;
+width: 128px;
+height: 61px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-45)/var(--unnamed-line-spacing-61) var(--unnamed-font-family-open-sans);
+letter-spacing: var(--unnamed-character-spacing-0-45);
+color: var(--unnamed-color-dbdce0);
+text-align: left;
+font: normal normal normal 45px/61px Open Sans;
+letter-spacing: 0.45px;
+color: #DBDCE0;
+opacity: 1;
+
+}
+
+#projects {
+  /* Layout Properties */
+top: 23px;
+left: 1346px;
+width: 171px;
+height: 61px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-45)/var(--unnamed-line-spacing-61) var(--unnamed-font-family-open-sans);
+letter-spacing: var(--unnamed-character-spacing-0-45);
+color: var(--unnamed-color-dbdce0);
+text-align: left;
+font: normal normal normal 45px/61px Open Sans;
+letter-spacing: 0.45px;
+color: #DBDCE0;
+opacity: 1;
+}
+
+#connect {
+  /* Layout Properties */
+top: 23px;
+left: 1583px;
+width: 176px;
+height: 61px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-45)/var(--unnamed-line-spacing-61) var(--unnamed-font-family-open-sans);
+letter-spacing: var(--unnamed-character-spacing-0-45);
+color: var(--unnamed-color-dbdce0);
+text-align: left;
+font: normal normal normal 45px/61px Open Sans;
+letter-spacing: 0.45px;
+color: #DBDCE0;
+opacity: 1;
 }
