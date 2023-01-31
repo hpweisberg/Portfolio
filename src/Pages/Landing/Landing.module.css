@@ -110,3 +110,82 @@ li {
 
   
 }
+
+
+@media (max-width: 390px) {
+
+  body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+  }
+
+  .landing {
+    width: 100%;
+    height: 100%;
+    background-position: 30%;
+  }
+  
+  .landingSand {
+    width: 100%;
+    height: 100%;
+    background-position: left -200px bottom -200px;
+
+  }
+
+  .harrison {
+    width: 100%;
+    height: 100%;
+    /* background-position-x: 13%; */
+    /* background-position-y: 50%; */
+    background-position: left -230px bottom -200px;
+    /* background: url('../../assets/hero-harrison.png') 20px 80px no-repeat cover; */
+
+  }
+
+
+
+  .name {
+    top: 20px;
+    left: 10px;
+    width: auto;
+  }
+
+  
+  ul {
+    top: 35px;
+    left: 20px;
+    width: auto;
+
+  }
+
+
+}
+
+
+/* position: relative;
+top: 472px;
+left: 833px;
+width: 938px;
+height: 136px;
+font-size: var(--fs-900);
+
+
+color: var(---414a56);
+text-align: left;
+font: normal normal bold 100px/136px Open Sans;
+letter-spacing: 1px;
+color: #414A56;
+opacity: 1; */
+
+/* width: 100vw;
+height: 100vh;
+background-image: url('../../assets/hero-image.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: left;
+z-index: -3;
+position: fixed;
+
+height: 100vh; */
