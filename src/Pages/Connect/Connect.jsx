@@ -5,14 +5,15 @@ const Connect = () => {
   return (
     <>
       <div className={styles.connecContainer}>
-
-        <h1 className={styles.connect}>Connect</h1>
-        <div className="socialLinks">
-          <a href="https://github.com/hpweisberg"><div className={styles.github}></div></a>
-          <a href="https://www.linkedin.com/in/harrisonweisberg/"><div className={styles.linkedIn}></div></a>
-          <a href="https://twitter.com/Harrison_PW"><div className={styles.twitter}></div></a>
-          <div className={styles.resume}></div>
-        </div>
+        <section className={styles.content}>
+          <h1 className={styles.connect}>Connect</h1>
+          <div className={styles.socialLinks}>
+            <a href="https://github.com/hpweisberg" className={styles.github}><div className={styles.github}></div></a>
+            <a href="https://www.linkedin.com/in/harrisonweisberg/" className={styles.linkedIn}><div className={styles.linkedIn}></div></a>
+            <a href="https://twitter.com/Harrison_PW" className={styles.twitter}><div className={styles.twitter}></div></a>
+            <a href="#" className={styles.resume}><div className={styles.resume}></div></a>
+          </div>
+        </section>
 
         <form action="POST" autoComplete='off'>
           <label htmlFor="nameInput">Name</label>
