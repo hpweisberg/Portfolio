@@ -17,11 +17,11 @@ const Connect = () => {
 
         <form action="POST" autoComplete='off'>
           <label htmlFor="nameInput">Name</label>
-          <input type="text" name="name" id='name-input'></input>
-          <label htmlFor="email-input">Email</label>
-          <input type="text" name="email" id='email-input'></input>
-          <label htmlFor="message-input">Message</label>
-          <input type="text" name="message" id='message-input'></input>
+          <input type="text" name="name" id='nameInput'></input>
+          <label htmlFor="emailInput">Email</label>
+          <input type="text" name="email" id='emailInput'></input>
+          <label htmlFor="messageInput">Message</label>
+          <input type="text" name="message" id='messageInput'></input>
 
           <button className='send-message-btn' type='submit'>Send</button>
         </form>
