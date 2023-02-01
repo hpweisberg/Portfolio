@@ -2,6 +2,8 @@ import styles from './Connect.module.css'
 import Nav from '../../Components/Nav/Nav'
 
 const Connect = () => {
+
+
   return (
     <>
     <Nav />
@@ -12,7 +14,8 @@ const Connect = () => {
             <a href="https://github.com/hpweisberg" className={styles.github}><div className={styles.github}></div></a>
             <a href="https://www.linkedin.com/in/harrisonweisberg/" className={styles.linkedIn}><div className={styles.linkedIn}></div></a>
             <a href="https://twitter.com/Harrison_PW" className={styles.twitter}><div className={styles.twitter}></div></a>
-            <a href="#" className={styles.resume}><div className={styles.resume}></div></a>
+            {/* Fix download */}
+            <a href="../../../public/harrisonWeisbergResume.pdf" download="harrisonWeisbergResume.pdf" className={styles.resume}><div className={styles.resume}></div></a>
           </div>
         </section>
 
