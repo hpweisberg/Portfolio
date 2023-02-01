@@ -1,16 +1,20 @@
 import styles from './Projects.module.css'
 import Nav from '../../Components/Nav/Nav'
 
-// import projects from '../../data/projects'
+import projects from '../data/projects'
+// import { useState } from 'react'
 
 
 const Projects = () => {
+  // const [projectData, setProjectData] = useState(projectData)
+
   return (
     <>
     <Nav />
     <div className="projectsContainer">
 
       <h3 className={styles.Projects}>Check out some of my projects</h3>
+
 
       <div className={styles.projectCard}>
         <div className={styles.projectCardTopText}>
