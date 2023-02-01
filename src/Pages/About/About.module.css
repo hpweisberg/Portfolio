@@ -1,46 +1,43 @@
-body {
-  top: 0px;
-  left: 0px;
-  width: 1920px;
-  height: 1080px;
-  background: transparent linear-gradient(119deg, #677689 0%, #0F1C29 100%) 0% 0% no-repeat padding-box;
-  overflow: hidden;
-  opacity: 1;
-}
+
 
 .aboutContainer {
+  background: transparent linear-gradient(119deg, #677689 0%, #0F1C29 100%) 0% 0% no-repeat padding-box;
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  /* border: 4px solid red; */
+  /* bring your own prefixes */
+  /* transform: translate(-50%, -50%); */
+  overflow: auto;
+  border: 4px solid red;
 
+
+}
+
+.heroImg>img {
+  width: 100%;
+  height: auto;
+  border-radius: 76px;
+  object-fit: cover;
 
 }
 
 .heroImg {
-  top: 149px;
-  left: 458px;
-  width: 644px;
-  height: 859px;
-  background-image: url('../../assets/about.jpeg') 0% 0% no-repeat padding-box;
+  width: 60%;
+  height: 100%;
+  background-size: cover;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 76px;
   opacity: 1;
   z-index: 4;
+  margin: 5px;
 
 }
 
 .About {
-  top: 310px;
-  left: 1152px;
-  width: 365px;
-  height: 41px;
+  /* width: 365px;
+  height: 41px; */
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-30)/var(--unnamed-line-spacing-41) var(--unnamed-font-family-open-sans);
   letter-spacing: var(--unnamed-character-spacing-0-3);
   color: var(--unnamed-color-fffffe);
@@ -53,10 +50,8 @@ body {
 
 p {
   /* Layout Properties */
-  top: 365px;
-  left: 1152px;
-  width: 431px;
-  height: 480px;
+  /* width: 431px;
+  height: 480px; */
   /* UI Properties */
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-open-sans);
   letter-spacing: var(--unnamed-character-spacing-0-22);
@@ -69,20 +64,20 @@ p {
 }
 
 .aboutTextContainer {
-  top: 289px;
-left: 1052px;
-width: 556px;
-height: 580px;
-background: #FFFFFF21 0% 0% no-repeat padding-box;
-border: 1px solid #707070;
-border-radius: 44px;
-opacity: 1;
-padding: 1em;
-padding-left: 4em;
-z-index: 2;
+  /* width: 556px;
+  height: 580px; */
+  background: #FFFFFF21 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 44px;
+  opacity: 1;
+  padding: 1em;
+  /* padding-left: 4em; */
+  width: 40%;
+  /* height: 80%; */
+  z-index: 2;
 }
 
 .about {
-  margin-top: .8em;
-  
+  margin-top: 0;
+
 }

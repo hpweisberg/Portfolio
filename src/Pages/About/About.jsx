@@ -1,13 +1,17 @@
 import styles from './About.module.css'
-
+import me from '../../assets/about.jpg'
+import Nav from '../../Components/Nav/Nav'
 
 
 const About = () => {
   return (
     <>
+    <Nav />
       <div className={styles.aboutContainer}>
 
-        <div className={styles.heroImg}></div>
+        <div className={styles.heroImg}>
+          <img src={me} alt="" />
+        </div>
         <div className={styles.aboutTextContainer}>
 
           <h1 className={styles.about}>About</h1>

@@ -118,6 +118,12 @@ body {
   /* Use a system font, if none are available use an available sans-sarif font */
   font-family: var(--ff-primary);
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 110vh;
+  width: 100vw;
 }
 
 div, ul, li {

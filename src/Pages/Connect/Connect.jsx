@@ -1,9 +1,10 @@
 import styles from './Connect.module.css'
-
+import Nav from '../../Components/Nav/Nav'
 
 const Connect = () => {
   return (
     <>
+    <Nav />
       <div className={styles.connecContainer}>
         <section className={styles.content}>
           <h1 className={styles.connect}>Connect</h1>
