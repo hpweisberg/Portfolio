@@ -1,7 +1,8 @@
+// import { myProjects } from '../../data/projects'
+import ProjectList from '../../Components/ProjectsList'
 import styles from './Projects.module.css'
 import Nav from '../../Components/Nav/Nav'
 
-import projects from '../data/projects'
 // import { useState } from 'react'
 
 
@@ -13,6 +14,15 @@ const Projects = () => {
     <Nav />
     <div className="projectsContainer">
 
+    {/* <ul>
+      
+      {myProjects.map((item) => (
+        <li key={item.name}>
+          <p>{item.name}</p>
+        </li>
+        ))}
+        </ul> */}
+      
       <h3 className={styles.Projects}>Check out some of my projects</h3>
 
 

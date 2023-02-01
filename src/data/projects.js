@@ -1,4 +1,4 @@
-const projects = [
+const myProjects = [
   {
     name: 'MAMBA',
     description: 'A take on the classic game of Snake. Players help NBA legend Kobe Bryant, aka, “Black Mamba” secure as many NBA Championship Trophies as possible without getting a technical foul!',
@@ -15,4 +15,4 @@ const projects = [
   }
 ]
 
-export default projects
+export { myProjects }
