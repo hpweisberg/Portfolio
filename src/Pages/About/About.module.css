@@ -48,7 +48,7 @@
   opacity: 1;
 }
 
-p {
+.aboutTextContainer > p {
   /* Layout Properties */
   /* width: 431px;
   height: 480px; */

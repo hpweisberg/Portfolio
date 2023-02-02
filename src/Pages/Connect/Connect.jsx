@@ -27,7 +27,7 @@ const Connect = () => {
           <label htmlFor="messageInput">Message</label>
           <input type="text" name="message" id='messageInput'></input>
 
-          <button className='send-message-btn' type='submit'>Send</button>
+          <button className={styles.sendMessageBtn} type='submit'>Send</button>
         </form>
       </div>
     </>

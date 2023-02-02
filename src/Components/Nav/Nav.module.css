@@ -15,7 +15,7 @@ border: 1px solid #707070;
 opacity: 1;
 backdrop-filter: blur(6px);
 -webkit-backdrop-filter: blur(6px);
-position: fixed;
+/* position: fixed; */
 overflow: hidden;
 }
 

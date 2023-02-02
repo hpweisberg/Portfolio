@@ -122,7 +122,7 @@ color: #414A56;
 opacity: 1;
 }
 
-ul {
+.subName {
   position: relative;
 
   /* Layout Properties */
@@ -143,7 +143,7 @@ ul {
 
 }
 
-li {
+.subName > li {
   text-decoration: none;
   list-style-type: none;
   padding: 0 .2rem;
@@ -195,7 +195,7 @@ li {
   }
 
   
-  ul {
+  .subName {
     top: 35px;
     left: 20px;
     width: auto;
