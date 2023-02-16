@@ -1,7 +1,7 @@
 import { myProjects } from '../../data/projects'
 import ProjectsList from '../../Components/ProjectsList'
 import styles from './Projects.module.css'
-import Nav from '../../Components/Nav/Nav'
+
 
 // import { useState } from 'react'
 

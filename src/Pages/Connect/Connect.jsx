@@ -1,5 +1,5 @@
 import styles from './Connect.module.css'
-import Nav from '../../Components/Nav/Nav'
+
 
 const Connect = () => {
 

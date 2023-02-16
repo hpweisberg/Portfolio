@@ -1,4 +1,4 @@
-import Nav from '../../Components/Nav/Nav'
+
 import styles from './Landing.module.css'
 
 const Landing = () => {

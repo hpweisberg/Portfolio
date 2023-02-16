@@ -2,7 +2,7 @@ import { myProjects } from "../data/projects"
 import findProject from "../utilities/findProjects"
 
 import { useParams } from "react-router-dom"
-import Nav from "../Components/Nav/Nav"
+
 
 
 const ProjectDetails = () => {

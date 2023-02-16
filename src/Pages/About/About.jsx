@@ -1,6 +1,6 @@
 import styles from './About.module.css'
 import me from '../../assets/about.jpg'
-import Nav from '../../Components/Nav/Nav'
+
 
 
 const About = () => {
