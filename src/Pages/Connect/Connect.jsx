@@ -6,7 +6,7 @@ const Connect = () => {
 
   return (
     <>
-    <Nav />
+    {/* <Nav /> */}
       <div className={styles.connecContainer}>
         <section className={styles.content}>
           <h1 className={styles.connect}>Connect</h1>

@@ -6,7 +6,7 @@ import Nav from '../../Components/Nav/Nav'
 const About = () => {
   return (
     <>
-    <Nav />
+    {/* <Nav /> */}
       <div className={styles.aboutContainer}>
 
         <div className={styles.heroImg}>

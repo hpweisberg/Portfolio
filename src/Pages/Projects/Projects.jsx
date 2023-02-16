@@ -11,7 +11,7 @@ const Projects = () => {
 
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
         <div className={styles.projectsContainer}>
           <ProjectsList myProjects={myProjects} />
         </div>

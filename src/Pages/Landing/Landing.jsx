@@ -4,7 +4,7 @@ import styles from './Landing.module.css'
 const Landing = () => {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <div className={styles.landingContainer}>
         <div className={styles.landing}></div>
         <div className={styles.landingSand}></div>

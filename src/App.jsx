@@ -16,7 +16,7 @@ import ProjectDetails from './Pages/ProjectDetails';
 function App() {
   return (
     <>
-        {/* <Nav /> */}
+        <Nav />
         <Routes>
           <Route path='/' element={<Landing />} />
           <Route path='/About' element={<About />} />
