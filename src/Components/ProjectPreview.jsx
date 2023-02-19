@@ -17,7 +17,10 @@ const ProjectPreview = (props) => {
           <a href={props.repoLink} target='_blank' rel='noreferrer'><img src={githublogo} alt="" /></a>
           <a href={props.deploymentLink} target='_blank' rel='noreferrer'><h2>{props.name}</h2></a>
         </div>
-        <img src={props.image} alt="screenshoot of app" />
+        <div className={styles.imageContainer}>
+          <img src={props.image} alt="screenshoot of app" />
+          <p>{props.description}</p>
+        </div>
       </div>
     </>
   )

@@ -5,6 +5,7 @@
   align-items: end;
   border: 2px blue solid;
   /* width: 0%; */
+  height: 100%;
   overflow-y: scroll;
   scroll-snap-align: auto;
   list-style-type: none;

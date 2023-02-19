@@ -27,13 +27,13 @@
   text-align: end;
   justify-content: center;
   /* border: 2px red solid; */
-  margin: 0 3rem;
+  margin: 4em 3rem;
   padding-bottom: 9em;
   border: 5px solid green;
 }
 
 .projects {
-  font-size: 5rem;
+  font-size: 3.5rem;
   margin-bottom: .5rem;
 }
 
