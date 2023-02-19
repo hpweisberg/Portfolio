@@ -1,20 +1,26 @@
 
 import styles from './Landing.module.css'
+import backgroundImg from '../../assets/hero-image.jpg'
+import sandSlideImg from '../../assets/hero-image-sand.png'
+import meImg from '../../assets/hero-harrison.png'
 
 const Landing = () => {
   return (
     <>
-      {/* <Nav /> */}
       <div className={styles.landingContainer}>
-        <div className={styles.landing}></div>
-        <div className={styles.landingSand}></div>
-        <div className={styles.harrison}></div>
+        <div className={styles.heroImgContainer}>
 
-        <div className={styles.heroContainer}>
+          <div src={backgroundImg} alt="sand landscape" className={styles.landing}></div>
+          <div src={sandSlideImg} alt="sand landscape" className={styles.sand}></div>
+          <div src={meImg} alt="sand landscape" className={styles.meImg}></div>
+        </div>
+
+        <div className={styles.heroContentContainer}>
           <h1 className={styles.name}>Harrison Weisberg</h1>
           <ul className={styles.subName}>
-            <li>Software Engineer, </li>
-            <li>Designer, </li>
+            <li>Software Engineer </li>
+
+            <li>Designer </li>
             <li>Creator</li>
           </ul>
         </div>

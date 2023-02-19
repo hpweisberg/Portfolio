@@ -1,137 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
-
-:root {
-
-
-  /* ! Font Colors */
-  --clr-accent-400: hsl(12, 78%, 50%); 
-  --clr-accent-100: hsl(12, 77%, 81%);
-
-  --clr-primary-400: hsl(189, 94%, 53%);
-  
-  --clr-neutral-900: hsl(232, 12%, 13%);
-  --clr-neutral-100: hsl(0, 0%, 100%);
-  
-  --clr-background-100: hsl(0, 10%, 88%);
-
-  --ff-primary: font-family: 'Open Sans', sans-serif;
-
-  --ff-body: var(var(--ff-primary));
-  --ff-accent: var(var(--ff-primary));
-
-  --fw-regular: 400;
-  --fw-semi-bold: 500;
-  --fw-bold: 700;
-
-  --fs-300: .8125rem;
-  --fs-400: .875rem;
-  --fs-500: .9375rem;
-  --fs-600: 1rem;
-  --fs-650: 1.77rem;
-  --fs-700: 1.875rem;
-  --fs-800: 2.5rem;
-  --fs-850: 2.813rem;
-  --fs-900: 3.5rem;
-
-  --fs-body: var(--fs-400);
-  --fs-primary-heading: var(--fs-800);
-  --fs-secondary-heading: var(--fs-700);
-  --fs-nav: var(--fs-850);
-  --fs-button: var(--fs-300);
-}
-
-:root {
-
-  /* Colors: */
-  ---dbdce0: #DBDCE0;
-  ---000207: #000207;
-  ---86a4ca: #86A4CA;
-  ---414a56: #414A56;
-  
-  /* Font/text values */
-  --unnamed-font-family-open-sans: Open Sans;
-  --unnamed-font-style-normal: normal;
-  --unnamed-font-weight-600: 600px;
-  --unnamed-font-weight-bold: bold;
-  --unnamed-font-weight-normal: normal;
-  --unnamed-font-size-45: 45px;
-  --unnamed-font-size-51: 51px;
-  --unnamed-font-size-100: 100px;
-  --unnamed-character-spacing-1: 1px;
-  --unnamed-character-spacing-0-51: 0.51px;
-  --unnamed-character-spacing-0-45: 0.45px;
-  --unnamed-line-spacing-61: 61px;
-  --unnamed-line-spacing-70: 70px;
-  --unnamed-line-spacing-136: 136px;
-  }
-  
-  /* Character Styles */
-.nav-text {
-  font-family: var(--unnamed-font-family-open-sans);
-  font-style: var(--unnamed-font-style-normal);
-  font-weight: var(--unnamed-font-weight-normal);
-  font-size: var(--unnamed-font-size-45);
-  line-height: var(--unnamed-line-spacing-61);
-  letter-spacing: var(--unnamed-character-spacing-0-45);
-  color: var(---dbdce0);
-  }
-  .hero-subname-text {
-  font-family: var(--unnamed-font-family-open-sans);
-  font-style: var(--unnamed-font-style-normal);
-  font-weight: var(--unnamed-font-weight-600);
-  font-size: var(--unnamed-font-size-51);
-  line-height: var(--unnamed-line-spacing-70);
-  letter-spacing: var(--unnamed-character-spacing-0-51);
-  color: var(---86a4ca);
-  }
-  .hero-name-text {
-  font-family: var(--unnamed-font-family-open-sans);
-  font-style: var(--unnamed-font-style-normal);
-  font-weight: var(--unnamed-font-weight-bold);
-  font-size: var(--unnamed-font-size-100);
-  line-height: var(--unnamed-line-spacing-136);
-  letter-spacing: var(--unnamed-character-spacing-1);
-  color: var(---414a56);
-  }
-
-html {
-  box-sizing: border-box
-}
-
-/* The Universal Selector */
-*, /* All elements*/
-*::before, /* All ::before pseudo-elements */
-*::after { /* All ::after pseudo-elements */
-  /* height & width will now include border & padding by default
-     but can be over-ridden as needed */
-  box-sizing: inherit;
-}
-
-/* resets font size to be 62.5% of the user preference - 
-     in most browser configurations this will be 10px */
-:root {
-  font-size: 62.5%;
-}
-
-body {
-  /* background-color: gray; */
-  /* Use a system font, if none are available use an available sans-sarif font */
-  font-family: var(--ff-primary);
+html,
+body,
+#root,
+main {
   margin: 0;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 110vh;
-  width: 100vw;
 }
 
-div, ul, li {
-  font-family: var(--ff-primary);
-}
-
-#root {
-  background-color: red;
-  height: 0;
+.navBar > * {
+  border: red 4px solid;
   
 }

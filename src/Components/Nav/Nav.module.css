@@ -1,104 +1,55 @@
 .navigationBar {
-  font-family: var(--);
+  height: 100vh;
+  width: 25vw;
   display: flex;
-  justify-content: space-between;
-  padding: 0 12em;
-  height: 5em;
-  width: 100vw;
-  z-index: 1;
-  background-color: rgba(255, 255, 255, 0.8);
-  /* position: absolute; */
-
-  /* UI Properties */
-background: transparent linear-gradient(180deg, #00050FB5 0%, #00050F4B 100%) 0% 0% no-repeat padding-box;
-border: 1px solid #707070;
-opacity: 1;
-backdrop-filter: blur(6px);
--webkit-backdrop-filter: blur(6px);
-/* position: fixed; */
-overflow: hidden;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  background-color: rgba(4, 4, 19, 0.8);
 }
 
-a {
-  font-size: var(--fs-nav);
+.navigationBar a {
   text-decoration: none;
+  /* margin-left: 24px; */
+  font-weight: 500;
+  font-size: 22px;
+  color: #D7B27B;
+  
 }
 
-.navAPC > * {
-  /* background-color: green; */
-  padding: 0 1rem;
+
+.navigationBar img {
+  height: 40px;
+  transform: translateY(8%);
 }
+
+.pageLinks a:hover {
+  font-size: 24px
+}
+
+#logo:hover {
+  border-bottom: none;
+}
+
 
 #logo {
-  
-  /* background-color: purple; */
-  font-size: var(--fs-nav);
-  /* color: rebeccapurple; */
-
-  /* Layout Properties */
-top: 23px;
-left: 179px;
-width: 129px;
-height: 61px;
-/* UI Properties */
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-45)/var(--unnamed-line-spacing-61) var(--unnamed-font-family-open-sans);
-letter-spacing: var(--unnamed-character-spacing-0-45);
-color: var(--unnamed-color-dbdce0);
-text-align: left;
-font: normal normal normal 45px/61px Open Sans;
-letter-spacing: 0.45px;
-color: #DBDCE0;
-opacity: 1;
+  /* margin: 0; */
+  /* margin-right: auto; */
+  font-weight: 700;
+  font-size: 49px;
+  /* height: 30%; */
+  height: 25%;
+  padding-top: 1em;
 }
 
-#about {
-  /* Layout Properties */
-top: 23px;
-left: 1152px;
-width: 128px;
-height: 61px;
-/* UI Properties */
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-45)/var(--unnamed-line-spacing-61) var(--unnamed-font-family-open-sans);
-letter-spacing: var(--unnamed-character-spacing-0-45);
-color: var(--unnamed-color-dbdce0);
-text-align: left;
-font: normal normal normal 45px/61px Open Sans;
-letter-spacing: 0.45px;
-color: #DBDCE0;
-opacity: 1;
-
+.pageLinks {
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  align-items: center;
 }
 
-#projects {
-  /* Layout Properties */
-top: 23px;
-left: 1346px;
-width: 171px;
-height: 61px;
-/* UI Properties */
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-45)/var(--unnamed-line-spacing-61) var(--unnamed-font-family-open-sans);
-letter-spacing: var(--unnamed-character-spacing-0-45);
-color: var(--unnamed-color-dbdce0);
-text-align: left;
-font: normal normal normal 45px/61px Open Sans;
-letter-spacing: 0.45px;
-color: #DBDCE0;
-opacity: 1;
-}
-
-#connect {
-  /* Layout Properties */
-top: 23px;
-left: 1583px;
-width: 176px;
-height: 61px;
-/* UI Properties */
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-45)/var(--unnamed-line-spacing-61) var(--unnamed-font-family-open-sans);
-letter-spacing: var(--unnamed-character-spacing-0-45);
-color: var(--unnamed-color-dbdce0);
-text-align: left;
-font: normal normal normal 45px/61px Open Sans;
-letter-spacing: 0.45px;
-color: #DBDCE0;
-opacity: 1;
+.pageLinks > a {
+  justify-content: space-around;
+  padding: 2em 0;
 }
