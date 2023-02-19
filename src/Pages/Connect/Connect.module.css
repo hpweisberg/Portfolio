@@ -33,18 +33,27 @@
   /* border: 2px red solid; */
 }
 
-.connect>h1 {
+.connect > h1 {
   font-size: 5rem;
   margin-bottom: .5rem;
 }
 
 .socialLinks {
   /* border: 4px red solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.socialLinks>a>img {
+.socialLinks > a > img {
   width: 3em;
-  margin: 0 1.5em;
+  justify-content: space-around;
+
+  /* border: 1px red solid; */
+}
+
+.resume > a > img {
+  margin-right: 0;
 }
 
 .form {
@@ -52,7 +61,7 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  margin: 1.5em;
+  margin: 1.5em 0;
   width: 90%;
 }
 
@@ -63,22 +72,23 @@
 
 }
 
-.formTop>* {
+.formTop> * {
   width: 40%;
 }
 
 
 .topName,
 .topEmail,
-.message>label {
+.message > label {
   display: flex;
   flex-direction: column;
   align-items: start;
   font-size: 1.3em;
 }
 
-.formTop>div>input {
-  width: 96%;
+.formTop> div > input {
+  width: 94%;
+  height: 2em;
   border-radius: 5px;
   /* background-color: red; */
 }
@@ -87,8 +97,9 @@
   margin-top: 2em;
 }
 
-.message>input {
+.message > textarea {
   border-radius: 5px;
+  border-width: 2px;
   background-color: rgba(255, 255, 255, 0.5);
   height: 8em;
 }
@@ -134,4 +145,14 @@
 .sendMessageBtn:active {
   transform: scale(0.95);
 
+}
+
+input, textarea {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: .6em;
+
+}
+
+textarea {
+  padding-top: .5em;
 }

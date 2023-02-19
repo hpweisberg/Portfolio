@@ -15,7 +15,7 @@ const Connect = () => {
         </div>
         <div className={styles.connectTextContainer}>
           <section className={styles.connect}>
-            <h1>Let's Chat</h1>
+            <h1>Lets Chat</h1>
             <div className={styles.socialLinks}>
               <a href="https://github.com/hpweisberg" className={styles.github}><img src={github} alt="" /></a>
               <a href="https://www.linkedin.com/in/harrisonweisberg/" className={styles.linkedIn}><img src={linkedIn} alt="" /></a>
@@ -40,7 +40,7 @@ const Connect = () => {
             <div className={styles.message}>
 
               <label htmlFor="messageInput">Message</label>
-              <input type="text" name="message" id='messageInput'></input>
+              <textarea type="text" name="message" id='messageInput'></textarea>
             </div>
 
             <button className={styles.sendMessageBtn} type='submit'>Send</button>
