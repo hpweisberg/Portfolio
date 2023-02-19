@@ -18,7 +18,7 @@
   position: absolute;
   z-index: -3;
   clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
-  
+
 }
 
 .connectTextContainer {
@@ -27,12 +27,13 @@
   width: 50%;
   text-align: end;
   justify-content: center;
+  align-items: end;
   margin: 0 3rem;
   padding-bottom: 9em;
   /* border: 2px red solid; */
 }
 
-.connect > h1 {
+.connect>h1 {
   font-size: 5rem;
   margin-bottom: .5rem;
 }
@@ -41,8 +42,96 @@
   /* border: 4px red solid; */
 }
 
-.socialLinks > a > img {
+.socialLinks>a>img {
   width: 3em;
   margin: 0 1.5em;
 }
 
+.form {
+  /* border: solid red 2px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin: 1.5em;
+  width: 90%;
+}
+
+.formTop {
+  display: flex;
+  /* border: 2px solid blueviolet; */
+  justify-content: space-between;
+
+}
+
+.formTop>* {
+  width: 40%;
+}
+
+
+.topName,
+.topEmail,
+.message>label {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 1.3em;
+}
+
+.formTop>div>input {
+  width: 96%;
+  border-radius: 5px;
+  /* background-color: red; */
+}
+
+.message {
+  margin-top: 2em;
+}
+
+.message>input {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 8em;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sendMessageBtn {
+  width: 35%;
+  align-items: center;
+
+  /* CSS */
+  margin: 1em 0 0 0;
+  padding: 1.3em 3em;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #1afe98;
+  background-image: linear-gradient(45deg, #1afe98 0%, #dbb279 51%, #c97b0d 100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.sendMessageBtn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.sendMessageBtn:active {
+  transform: scale(0.95);
+
+}

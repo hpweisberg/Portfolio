@@ -15,7 +15,7 @@ const Connect = () => {
         </div>
         <div className={styles.connectTextContainer}>
           <section className={styles.connect}>
-            <h1>Let's chat</h1>
+            <h1>Let's Chat</h1>
             <div className={styles.socialLinks}>
               <a href="https://github.com/hpweisberg" className={styles.github}><img src={github} alt="" /></a>
               <a href="https://www.linkedin.com/in/harrisonweisberg/" className={styles.linkedIn}><img src={linkedIn} alt="" /></a>
@@ -25,18 +25,28 @@ const Connect = () => {
             </div>
           </section>
 
-          <form action="POST" autoComplete='off'>
-            <label htmlFor="nameInput">Name</label>
-            <input type="text" name="name" id='nameInput'></input>
-            <label htmlFor="emailInput">Email</label>
-            <input type="text" name="email" id='emailInput'></input>
-            <label htmlFor="messageInput">Message</label>
-            <input type="text" name="message" id='messageInput'></input>
+          <form action="POST" autoComplete='off' className={styles.form}>
+            <div className={styles.formTop}>
+              <div className={styles.topName}>
+
+                <label htmlFor="nameInput">Name</label>
+                <input type="text" name="name" id='nameInput'></input>
+              </div>
+              <div className={styles.topEmail}>
+                <label htmlFor="emailInput">Email</label>
+                <input type="text" name="email" id='emailInput'></input>
+              </div>
+            </div>
+            <div className={styles.message}>
+
+              <label htmlFor="messageInput">Message</label>
+              <input type="text" name="message" id='messageInput'></input>
+            </div>
 
             <button className={styles.sendMessageBtn} type='submit'>Send</button>
           </form>
         </div>
-      </div>
+      </div >
     </>
   )
 }
