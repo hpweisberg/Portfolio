@@ -16,6 +16,7 @@ import ProjectDetails from './Pages/ProjectDetails';
 function App() {
   return (
     <>
+        <Nav className='navBar' />
         <Routes>
           <Route path='/' element={<Landing />} />
           <Route path='/About' element={<About />} />
@@ -23,7 +24,6 @@ function App() {
           <Route path='/Projects/:ProjectDetails' element={<ProjectDetails />} />
           <Route path='/Connect' element={<Connect />} />
         </Routes>
-        <Nav className='navBar' />
       </>
   );
 }

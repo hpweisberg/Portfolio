@@ -16,7 +16,7 @@ const Landing = () => {
         </div>
 
         <div className={styles.heroContentContainer}>
-          <h1 className={styles.name}>Harrison Weisberg</h1>
+          <h1 className={styles.name}>HARRISON WEISBERG</h1>
           <ul className={styles.subName}>
             <li>Software Engineer </li>
 
