@@ -11,12 +11,17 @@ const Projects = () => {
 
   return (
     <>
-      {/* <Nav /> */}
-        <div className={styles.projectsContainer}>
-          <ProjectsList myProjects={myProjects} />
+      <div className={styles.projectsContainer}>
+        <div className={styles.heroImg}>
         </div>
-      </>
-      )
+        <div className={styles.projectTextContainer}>
+        <h1 className={styles.projects}>Check out my work</h1>
+          <ProjectsList myProjects={myProjects} />
+
+        </div>
+      </div>
+    </>
+  )
 }
 
-      export default Projects
+export default Projects

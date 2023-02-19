@@ -1,0 +1,8 @@
+.landingContainer {
+  min-width: 100vw;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-size: var(--fs-900);
+  /* justify-content: flex-end; */
+}

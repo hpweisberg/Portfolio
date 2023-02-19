@@ -8,7 +8,7 @@ const ProjectsList = ({myProjects}) => {
       <ul className={styles.projectListBody}>
         {myProjects.map((project, idx) => 
           <li key={idx}>
-            <ProjectPreivew image={project.screenshot} name={project.name}/>
+            <ProjectPreivew image={project.screenshot} name={project.name} deploymentLink={project.deploymentLink} repoLink={project.repoLink}/>
           </li>
         )}
       </ul>

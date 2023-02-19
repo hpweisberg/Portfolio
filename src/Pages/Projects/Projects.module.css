@@ -1,8 +1,44 @@
-.Projects {
-  background-color: green;
+.projectsContainer {
+  min-width: 100vw;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-size: var(--fs-900);
+  justify-content: flex-end;
 }
 
-img {
-  width: 100px;
-  height: 100px;
+
+.heroImg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/about2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  position: absolute;
+  z-index: -3;
+  clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
+}
+
+.projectTextContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: end;
+  justify-content: center;
+  /* border: 2px red solid; */
+  margin: 0 3rem;
+  padding-bottom: 9em;
+  border: 5px solid green;
+}
+
+.projects {
+  font-size: 5rem;
+  margin-bottom: .5rem;
+}
+
+.aboutTextContainer > p {
+  font-size: 1.22rem;
+  letter-spacing: 0.51px;
+  line-height: 2rem;
 }

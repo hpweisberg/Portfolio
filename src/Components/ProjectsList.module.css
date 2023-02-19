@@ -1,4 +1,11 @@
 .projectListBody {
-  height: 80%;
-  width: 80%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  border: 2px blue solid;
+  /* width: 0%; */
+  overflow-y: scroll;
+  scroll-snap-align: auto;
+  list-style-type: none;
 }

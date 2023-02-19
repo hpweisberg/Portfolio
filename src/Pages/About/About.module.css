@@ -25,12 +25,11 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  /* align-content: center; */
   text-align: end;
   justify-content: center;
-  /* border: 2px red solid; */
   margin: 0 3rem;
   padding-bottom: 9em;
+  /* border: 2px red solid; */
 }
 
 .about {

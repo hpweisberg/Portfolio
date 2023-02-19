@@ -1,5 +1,33 @@
 .projectCard {
   border: 5px solid red;
-  height: 200px;
-  width: 200px;
+  /* height: 200px; */
+  width: 48vw;
+  list-style-type: none;
+  margin-bottom: 5em;
+  
+}
+
+.projectCard > img {
+  /* border: 5px solid red; */
+  /* height: 200px; */
+  width: 90%;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+
+.links > a > h2 {
+  font-size: 5rem;
+  margin: .2em;
+  border-left: 4px solid rgb(7, 5, 28);
+  padding-left: .2em;
+}
+
+.links > a > img {
+  width: 4em;
+  height: 4em;
 }

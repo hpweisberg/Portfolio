@@ -74,7 +74,7 @@ top: 204px;
 left: 333px;
 width: 50px;
 /* UI Properties */
-background: transparent url('../../assets/github-mark.png') 0% 0% no-repeat padding-box;
+background: transparent url('../../assets/githubMark.png') 0% 0% no-repeat padding-box;
 opacity: 1;
 background-size: cover;
 }

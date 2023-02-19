@@ -12,7 +12,14 @@ const myProjects = [
     screenshot: '/flyy.jpg',
     repoLink: 'https://github.com/hpweisberg/FLYy',
     deploymentLink: 'https://flyy-harrisonw.fly.dev/',
-  }
+  },
+  {
+    name: 'CAST',
+    description: `A better way for Casting Directors to get paired up with production talent. This app was born out of a desire to optimize a very manual casting process. Instead of sifting through resumes one by one, Cast allows Talent to setup a profile and have Casting Directors reach out to them. It's more simple, streamined, and modern.`,
+    screenshot: '/cast.png',
+    repoLink: 'https://github.com/hpweisberg/cast-front-end',
+    deploymentLink: 'https://castapp.netlify.app/',
+  },
 ]
 
 export { myProjects }
