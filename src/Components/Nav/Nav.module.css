@@ -32,17 +32,9 @@
 
 
 
-.pageLinks {
-  display: flex;
-  flex-direction: row;
-  height: 75%;
-  align-items: center;
-}
 
-.pageLinks>a {
-  justify-content: space-around;
-  padding: 2em 0;
-}
+
+
 
 
 #logo {
@@ -55,7 +47,7 @@
   position: fixed;
   width: 100vw;
   right: 0;
-  z-index: -4;
+  z-index: 1;
   display: flex;
   /* justify-content: space-between; */
   align-items: flex-end;
@@ -70,10 +62,14 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  color: #D7B27B;
 }
 
 .pageLinks > * {
   margin: 0 1em;
+  font-weight: 500;
+  font-size: 22px;
+  color: #D7B27B;
 }
 
 #logo {
