@@ -4,7 +4,7 @@
   overflow-y: hidden;
   overflow-x: hidden;
   font-size: var(--fs-900);
-  /* justify-content: flex-end; */
+  justify-content: flex-end;
 }
 
 
@@ -42,36 +42,46 @@
 }
 
 .heroImgContainer {
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url('../../assets/about2.jpeg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
   position: absolute;
+  z-index: -3;
+  clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
 }
 
 .heroContentContainer {
-  /* background-color: red; */
   display: flex;
-  width: 100%;
-  /* justify-content: flex-start;
-  align-items: right;
-  align-content: right; */
   flex-direction: column;
-  align-items: end;
-  margin: 1rem;
-  padding-top: 4em;
-  /* border: 5px red solid; */
+  width: 55%;
+  text-align: end;
+  justify-content: center;
+  margin: 0 3rem;
+  padding-bottom: 9em;
+  border: 2px red solid;
+  
 }
 
 .name {
-  font-size: 5rem;
+  font-size: 4rem;
+  overflow: visible;
+  flex-wrap: nowrap;
 }
 
 .subName {
   display: flex;
+  width: 94.5%;
+  /* border: 2px red solid; */
+  justify-content: space-between;
 }
 
 .subName > * {
   text-decoration: none;
   list-style-type: none;
   letter-spacing: 0.51px;
-  margin: 0 1em;
   font-size: 2rem;
   font-weight: 500;
 }

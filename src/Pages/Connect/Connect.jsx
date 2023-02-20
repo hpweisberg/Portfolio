@@ -30,17 +30,17 @@ const Connect = () => {
               <div className={styles.topName}>
 
                 <label htmlFor="nameInput">Name</label>
-                <input type="text" name="name" id='nameInput'></input>
+                <input type="text" name="name" id='nameInput' required></input>
               </div>
               <div className={styles.topEmail}>
                 <label htmlFor="emailInput">Email</label>
-                <input type="text" name="email" id='emailInput'></input>
+                <input type="text" name="email" id='emailInput' required></input>
               </div>
             </div>
             <div className={styles.message}>
 
               <label htmlFor="messageInput">Message</label>
-              <textarea type="text" name="message" id='messageInput'></textarea>
+              <textarea type="text" name="message" id='messageInput' required></textarea>
             </div>
 
             <button className={styles.sendMessageBtn} type='submit'>Send</button>

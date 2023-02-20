@@ -3,10 +3,17 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  border: 2px blue solid;
+  border: 1px blue solid;
   /* width: 0%; */
-  height: 100%;
+  /* width: 80; */
+  /* height: 100%; */
+  /* height: 100%; */
   overflow-y: scroll;
-  scroll-snap-align: auto;
+  /* scroll-snap-align: auto; */
   list-style-type: none;
+  height: 100%;
+}
+
+.projectListBody > * {
+  height: 100%;
 }

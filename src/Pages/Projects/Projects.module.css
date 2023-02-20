@@ -23,7 +23,7 @@
 .projectTextContainer {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
   text-align: end;
   justify-content: center;
   /* border: 2px red solid; */

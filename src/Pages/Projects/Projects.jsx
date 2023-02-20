@@ -15,7 +15,7 @@ const Projects = () => {
         <div className={styles.heroImg}>
         </div>
         <div className={styles.projectTextContainer}>
-        <h1 className={styles.projects}>Check Out My Work</h1>
+          <h1 className={styles.projects}>Check Out My Work</h1>
           <ProjectsList myProjects={myProjects} />
 
         </div>

@@ -11,7 +11,6 @@ const ProjectDetails = () => {
   const project = findProject(proj.ProjectDetails)
   return (
     <>
-      {/* <Nav /> */}
       <h1>{project.name}</h1>
       <p>{project.description}</p>
       <img src={project.screenshot} alt='' />
