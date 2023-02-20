@@ -1,5 +1,4 @@
 import styles from './About.module.css'
-import me from '../../assets/about.jpg'
 
 
 
