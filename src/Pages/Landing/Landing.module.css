@@ -12,12 +12,13 @@
   width: 100vw;
   height: 100vh;
   background-image: url('../../assets/hero-image.jpg');
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
   position: absolute;
-  z-index: -3;
+  z-index: 3;
   clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
+  
   
 }
 
@@ -28,7 +29,9 @@
   /* border: 5px rgb(0, 255, 123) solid; */
   background-image: url('../../assets/hero-image-sand.png');
   position: absolute;
-  z-index: -2;
+  z-index: 4;
+  animation: sandSlideIn 1700ms ease-out 3000ms 1 normal forwards;
+  height: 100vh;
 }
 
 .meImg {
@@ -38,7 +41,8 @@
   position: absolute;
   /* border: 5px rgb(0, 30, 255) solid; */
   background-image: url('../../assets/hero-harrison.png');
-  z-index: -1;
+  z-index: 5;
+  animation: slideIn 1500ms ease-out 2000ms 1 normal forwards;
 }
 
 .heroImgContainer {
@@ -61,7 +65,7 @@
   justify-content: center;
   margin: 0 3rem;
   padding-bottom: 9em;
-  border: 2px red solid;
+  /* border: 2px red solid; */
   
 }
 
@@ -69,6 +73,7 @@
   font-size: 4rem;
   overflow: visible;
   flex-wrap: nowrap;
+  
 }
 
 .subName {
@@ -84,4 +89,23 @@
   letter-spacing: 0.51px;
   font-size: 2rem;
   font-weight: 500;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translate3d(-100%, -80%, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes sandSlideIn {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
 }

@@ -14,9 +14,10 @@
   background-image: url('../../assets/about2.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  /* scale: 100%; */
   background-position: left;
   position: absolute;
-  z-index: -3;
+  z-index: 3;
   clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
   
 }
@@ -29,7 +30,7 @@
   justify-content: center;
   margin: 0 3rem;
   padding-bottom: 9em;
-  border: 2px red solid;
+  /* border: 2px red solid; */
 }
 
 .about {

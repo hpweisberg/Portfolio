@@ -4,6 +4,8 @@ import backgroundImg from '../../assets/hero-image.jpg'
 import sandSlideImg from '../../assets/hero-image-sand.png'
 import meImg from '../../assets/hero-harrison.png'
 
+
+
 const Landing = () => {
   return (
     <>

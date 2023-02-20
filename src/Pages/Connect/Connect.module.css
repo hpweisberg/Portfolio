@@ -16,7 +16,7 @@
   background-size: cover;
   background-position: left;
   position: absolute;
-  z-index: -3;
+  z-index: 3;
   clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
 
 }
