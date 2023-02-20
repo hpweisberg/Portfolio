@@ -11,7 +11,6 @@ const Landing = () => {
     <>
       <div className={styles.landingContainer}>
         <div className={styles.heroImgContainer}>
-
           <div src={backgroundImg} alt="sand landscape" className={styles.landing}></div>
           <div src={sandSlideImg} alt="sand landscape" className={styles.sand}></div>
           <div src={meImg} alt="sand landscape" className={styles.meImg}></div>
