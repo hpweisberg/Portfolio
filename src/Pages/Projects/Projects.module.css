@@ -27,14 +27,19 @@
   text-align: end;
   justify-content: center;
   /* border: 2px red solid; */
-  margin: 4em 3rem;
-  padding-bottom: 9em;
-  border: 5px solid green;
+  margin: 4em 3rem 0 0;
+  /* padding-bottom: 109em; */
+  /* border: 5px solid green; */
+  /* min-height: 100vh; */
+  overflow-y: scroll;
+  padding: 10em 0 10em 0;
+  /* max-height: calc(100vh - 8em); */
 }
 
 .projects {
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   margin-bottom: .5rem;
+  /* padding-top: 5.5em; */
 }
 
 .aboutTextContainer > p {
