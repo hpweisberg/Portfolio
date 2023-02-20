@@ -7,6 +7,18 @@ import resume from '../../assets/resume.png'
 
 const Connect = () => {
 
+  const onButtonClick = () => {
+    fetch('HarrisonWeisbergResume.pdf').then(response => {
+        response.blob().then(blob => {
+            const fileURL = window.URL.createObjectURL(blob);
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'HarrisonWeisbergResume.pdf';
+            alink.click();
+        })
+    })
+  }
+
 
   return (
     <>
@@ -21,7 +33,7 @@ const Connect = () => {
               <a href="https://www.linkedin.com/in/harrisonweisberg/" className={styles.linkedIn}><img src={linkedIn} alt="" /></a>
               <a href="https://twitter.com/Harrison_PW" className={styles.twitter}><img src={twitter} alt="" /></a>
               {/* Fix download */}
-              <a href="/public/HarrisonWeisbergResume.pdf" download className={styles.resume}><img src={resume} alt="resume" /></a>
+              <div className={styles.resume} onClick={onButtonClick}><img src={resume} alt="resume" /></div>
             </div>
           </section>
 

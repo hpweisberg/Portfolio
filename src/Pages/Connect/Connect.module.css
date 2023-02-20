@@ -44,7 +44,7 @@
   align-items: center;
 }
 
-.socialLinks > a > img {
+.socialLinks > a > img, .resume > img {
   width: 3em;
   justify-content: space-around;
 
