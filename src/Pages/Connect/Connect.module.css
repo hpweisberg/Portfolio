@@ -44,6 +44,10 @@
   align-items: center;
 }
 
+.socialLinks > a > img, .resume > img:hover {
+  cursor: pointer;
+}
+
 .socialLinks > a > img, .resume > img {
   width: 3em;
   justify-content: space-around;

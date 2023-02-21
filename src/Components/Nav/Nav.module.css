@@ -19,6 +19,15 @@
   color: #D7B27B;
 }
 
+.navigationBar a:hover{
+  cursor: pointer;
+  border-bottom: #D7B27B 1px solid;
+}
+
+#logo:hover {
+  border-bottom: none;
+}
+
 
 
 

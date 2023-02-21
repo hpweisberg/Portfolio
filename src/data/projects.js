@@ -5,6 +5,7 @@ const myProjects = [
     screenshot: '/mamba.jpg',
     repoLink: 'https://github.com/hpweisberg/snake',
     deploymentLink: 'https://harrison-snake.netlify.app/',
+    tools: ['JavaScript', 'HTML', 'CSS']
   },
   {
     name: 'FLYy',
@@ -13,6 +14,7 @@ const myProjects = [
     screenshot: '/flyy.jpg',
     repoLink: 'https://github.com/hpweisberg/FLYy',
     deploymentLink: 'https://flyy-harrisonw.fly.dev/',
+    tools: ['JavaScript', 'HTML', 'CSS', 'Express', 'Node', 'MongoDB']
   },
   {
     name: 'CAST',
@@ -20,6 +22,7 @@ const myProjects = [
     screenshot: '/castDesktop.png',
     repoLink: 'https://github.com/hpweisberg/cast-front-end',
     deploymentLink: 'https://castapp.netlify.app/',
+    tools: ['React', 'JavaScript', 'HTML', 'CSS', 'Express', 'Node', 'MongoDB']
   },
 ]
 

@@ -16,10 +16,10 @@ function App() {
     <>
         <Nav className='navBar' />
         <Routes>
-          <Route path='/' element={<Landing />} />
-          <Route path='/About' element={<About />} />
-          <Route path='/Projects' element={<Projects />} />
-          <Route path='/Connect' element={<Connect />} />
+          <Route path='/' element={<Landing />} title='landing' />
+          <Route path='/About' element={<About />} title='about' />
+          <Route path='/Projects' element={<Projects />} title='projects'/>
+          <Route path='/Connect' element={<Connect />} title='connect'/>
         </Routes>
       </>
   );
