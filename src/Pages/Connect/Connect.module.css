@@ -13,8 +13,8 @@
   height: 100vh;
   background-image: url('../../assets/hGrass.jpeg');
   background-repeat: no-repeat;
-  background-size: 56%;
-  background-position: left;
+  background-size: cover;
+  /* background-position:80% ; */
   position: absolute;
   z-index: 3;
   clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);

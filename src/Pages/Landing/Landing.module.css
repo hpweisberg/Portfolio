@@ -60,20 +60,36 @@
 .heroContentContainer {
   display: flex;
   flex-direction: column;
-  width: 55%;
+  width:45%;
+  height: 90vh;
   text-align: right;
-  justify-content: center;
-  margin: 0 3rem;
-  padding-bottom: 9em;
+  /* justify-content: center; */
+  margin: 7rem 3rem 0 3rem;
   /* border: 2px red solid; */
-  
+  padding: 1rem 4em 3em 0;
+  font-size: .8rem;
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 57% 100%);
+  line-height: 2.5rem;
+  /* font-weight: 200; */
 }
 
 .name {
-  font-size: 4rem;
-  overflow: visible;
-  flex-wrap: nowrap;
+  font-size: 3.0rem;
+  color: #61c9a8;
+  line-height: 4rem;
+  /* overflow: visible; */
+  /* flex-wrap: nowrap; */
   
+}
+
+.pop {
+  color: #ed9b40;
+
+}
+
+.subNameSpan {
+  font-size: 1.8rem;
+  border-bottom: 4px solid #f4eabe;;
 }
 
 .subName {
@@ -89,6 +105,19 @@
   letter-spacing: 0.51px;
   font-size: 2rem;
   font-weight: 500;
+}
+
+.subName >li:nth-child(1){
+  border-bottom: #ed9b40 solid 5px;
+  border-radius: 5px;
+}
+.subName >li:nth-child(2){
+  border-bottom: #f4eabe solid 5px;
+  border-radius: 5px;
+}
+.subName >li:nth-child(3){
+  border-bottom: #61c9a8 solid 5px;
+  border-radius: 5px;
 }
 
 @keyframes slideIn {
@@ -108,4 +137,34 @@
   to {
     width: 100%;
   }
+}
+
+
+@media screen and (max-width: 890px ) {
+  .landingContainer{
+    /* background-color: red;
+    display: flex;
+    flex-direction: column-reverse; */
+  }
+
+  .heroImgContainer{
+    width: 0;
+    height: 0;
+  }
+
+  .heroContentContainer {
+    width: 80%;
+    text-align: center;
+  }
+
+  .subName{
+    flex-direction: column;
+  }
+  .subName > * {
+    padding: 2%;
+  }
+  
+
+
+
 }

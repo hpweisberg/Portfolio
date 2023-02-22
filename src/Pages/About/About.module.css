@@ -22,14 +22,24 @@
   
 }
 
+.pop {
+  font-size: 1.8rem;
+  color: #ed9b40;
+}
+
+.popTitle {
+  color: #61c9a8;
+}
+
 .aboutTextContainer {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 45%;
   text-align: right;
   justify-content: center;
   margin: 0 3rem;
-  padding-bottom: 9em;
+  padding: 0 4em 9em 0;
+  /* padding-bottom: 9em; */
   /* border: 2px red solid; */
 }
 

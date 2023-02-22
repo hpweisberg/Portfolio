@@ -33,7 +33,7 @@
   /* border: 5px solid green; */
   /* min-height: 100vh; */
   overflow-y: scroll;
-  padding: 10em 0 10em 0;
+  padding: 10em 4em 10em 0;
   /* max-height: calc(100vh - 8em); */
 }
 
@@ -47,4 +47,19 @@
   font-size: 1.22rem;
   letter-spacing: 0.51px;
   line-height: 2rem;
+}
+
+.projectDis {
+  font-size: 1.22rem;
+  letter-spacing: 0.51px;
+  line-height: 2rem;
+}
+
+.pop {
+  font-size: 1.8rem;
+  color: #ed9b40;
+}
+
+.popTitle {
+  color: #61c9a8;
 }

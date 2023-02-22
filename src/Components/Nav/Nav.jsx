@@ -1,12 +1,18 @@
+import { useState } from 'react'
+
 import styles from './Nav.module.css'
 import { NavLink } from "react-router-dom"
 
 import logo from '../../assets/HWLogo.png'
 
 const Nav = () => {
+
+  const [navToggle, setNavToggle] = useState(false)
+
   return (
     <>
       <nav className={styles.navigationBar}>
+
         <div className={styles.pageLinks}>
         <NavLink to='/About' >About</NavLink>
         <NavLink to='/Projects' >Projects</NavLink>

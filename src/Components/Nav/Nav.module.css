@@ -21,7 +21,7 @@
 
 .navigationBar a:hover{
   cursor: pointer;
-  border-bottom: #D7B27B 1px solid;
+  border-bottom: #61c9a8 1px solid;
 }
 
 #logo:hover {
@@ -92,3 +92,44 @@
   height: 50px;
   margin: 0 2em;
 }
+
+.hamburger {
+  border: 0;
+  height: 45px;
+  width: 45px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #ee931b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+ /* positions the icon to the right and center aligns it vertically */
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+.hamburger:hover {
+  background-color: #14e1aa;
+}
+
+
+@media screen and (max-width: 890px ) {
+  .hamburger {
+    display: block;
+  }
+
+  .pageLinks {
+    display: none;
+  }
+
+
+  .navClosed {
+    display: none;
+  }
+
+  .navOpen {
+    color: red
+  }
+}
+
