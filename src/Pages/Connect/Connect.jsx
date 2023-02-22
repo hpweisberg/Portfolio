@@ -27,7 +27,7 @@ const Connect = () => {
         </div>
         <div className={styles.connectTextContainer}>
           <section className={styles.connect}>
-            <h1>Lets Chat</h1>
+            <h1>Lets <span className={styles.popTitle}>Chat</span></h1>
             <div className={styles.socialLinks}>
               <a href="https://github.com/hpweisberg" className={styles.github}><img src={github} alt="" /></a>
               <a href="https://www.linkedin.com/in/harrisonweisberg/" className={styles.linkedIn}><img src={linkedIn} alt="" /></a>

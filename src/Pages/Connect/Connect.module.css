@@ -159,3 +159,7 @@ input, textarea {
 textarea {
   padding-top: .5em;
 }
+
+.popTitle {
+  color: #61c9a8;
+}

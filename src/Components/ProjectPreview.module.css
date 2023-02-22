@@ -16,6 +16,7 @@
   width: 100%;
   justify-content: flex-end;
   border-radius: 5px;
+
 }
 
 .links {
@@ -29,12 +30,13 @@
   font-size: 3rem;
   margin: .2em;
   border-left: 4px solid rgb(7, 5, 28);
+  border-color: #ed9b40;
   padding-left: .2em;
   color: black;
 }
 
 .links > a {
-  color: black;
+  color: #61c9a8;
   cursor: pointer;
 }
 
