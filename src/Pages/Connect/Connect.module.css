@@ -13,7 +13,7 @@
   height: 100vh;
   background-image: url('../../assets/hGrass.jpeg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 56%;
   /* background-position:80% ; */
   position: absolute;
   z-index: 3;
