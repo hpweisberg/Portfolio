@@ -1,4 +1,3 @@
-import { useState } from 'react'
 
 import styles from './Nav.module.css'
 import { NavLink } from "react-router-dom"
@@ -7,7 +6,6 @@ import logo from '../../assets/HWLogo.png'
 
 const Nav = () => {
 
-  const [navToggle, setNavToggle] = useState(false)
 
   return (
     <>
