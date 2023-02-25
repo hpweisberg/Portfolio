@@ -1,3 +1,6 @@
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+
 .navigationBar {
   /* height: 100vh; */
   display: flex;
@@ -28,7 +31,53 @@
   border-bottom: none;
 }
 
+@media only screen and (max-width: 1024px) {
+  .navigationBar > * {
+    display: none;
+    background-color: blue;
+    max-width: 95vw;
+  }
+}
 
+/* .navBar {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navBar {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  .responsive_nav {
+    transform: none;
+  }
+
+  .nav_close_Btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+} */
 
 
 /* .pageLinks a:hover {
