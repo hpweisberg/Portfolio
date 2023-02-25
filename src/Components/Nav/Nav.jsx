@@ -40,8 +40,8 @@ const Nav = () => {
           <NavLink to='/About' >About</NavLink>
           <NavLink to='/Projects' >Projects</NavLink>
           <NavLink to='/Connect' >Connect</NavLink>
-          <NavLink to='/' id={styles.logo} ><img src={logo} alt="HW logo" /></NavLink>
         </div>
+        <NavLink to='/' id={styles.logoMobile} ><img src={logo} alt="HW logo" /></NavLink>
         <div className={styles.pageLinks}>
           <NavLink to='/About' >About</NavLink>
           <NavLink to='/Projects' >Projects</NavLink>
