@@ -10,28 +10,33 @@ import logo from '../../assets/HWLogo.png'
 const Nav = () => {
 
   const [toggleNav, setToggleNav] = useState(false)
-  const mobileLinks = useRef();
+  const links = useRef()
 
   // const navRef = useRef()
 
   function clickMenu(evt) {
     setToggleNav(!toggleNav)
-    console.log(toggleNav);
+    console.log(toggleNav)
   }
 
   useEffect( () => {
-    const widthVal = toggleNav ? '0px' : '-300px';
-    mobileLinks.current.style.marginLeft = widthVal;
-  }, [toggleNav]);
+    const widthVal = toggleNav ? '0px' : '-300px'
+    links.current.style.marginLeft = widthVal
+  }, [toggleNav])
 
-
+  // let pageClass;
+  // if (window.innerWidth >= 1275) {
+  //   pageClass = styles.pageLinks;
+  // } else {
+  //   pageClass = styles.mobilePageLinks;
+  // }
 
   return (
     <>
       <nav className={styles.navigationBar}>
 
-        <Hamburger clickMenu={clickMenu}/>
-        <div ref={mobileLinks} className={styles.mobilePageLinks}>
+        <Hamburger clickMenu={clickMenu} toggleNav={toggleNav}/>
+        <div ref={links} className={styles.mobilePageLinks}>
           <NavLink to='/About' >About</NavLink>
           <NavLink to='/Projects' >Projects</NavLink>
           <NavLink to='/Connect' >Connect</NavLink>

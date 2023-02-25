@@ -1,12 +1,18 @@
 
 import styles from './Nav.module.css';
-const Hamburger = ({ clickMenu }) => {
+const Hamburger = ({ clickMenu, toggleNav }) => {
+
+    
 
     return (
         <div className={styles.hamburger} onClick={clickMenu}>
-            <span/>
-            <span/>
-            <span/>
+            { !toggleNav 
+            ? <>
+              <span/>
+              <span/>
+              <span/>
+              </>
+            : <img/>}
         </div>
     )
 }
