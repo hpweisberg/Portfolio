@@ -154,7 +154,30 @@
   }
 
   .heroImgContainer > * {
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); */
+    /* background-size: cover; */
+  }
+  
+  .heroImgContainer {
+    display: none;
+    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); */
+    /* width: 40vw;
+    height: 30vh; */
+    /* background-size: cover; */
+    /* max-width: 90vw;
+    max-height: 80vh; */
+    /* display: block; */
+
+
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2; */
+    /* order: 1; */
+  }
+
+  .landing, .sand, .meImg {
     display: none;
   }
 
@@ -162,5 +185,9 @@
     width: 80vw;
   }
   
+  .mobileImgContainer {
+    display: block;
+
+  }
   
 }
