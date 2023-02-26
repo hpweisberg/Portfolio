@@ -14,7 +14,7 @@ const myProjects = [
     screenshot: '/flyy.jpg',
     repoLink: 'https://github.com/hpweisberg/FLYy',
     deploymentLink: 'https://flyy-harrisonw.fly.dev/',
-    tools: ['JavaScript', 'HTML', 'CSS', 'Express', 'Node', 'MongoDB']
+    tools: ['JavaScript', 'HTML', 'CSS', 'Express.js', 'MongoDb']
   },
   {
     name: 'CAST',
@@ -22,7 +22,7 @@ const myProjects = [
     screenshot: '/castDesktop.png',
     repoLink: 'https://github.com/hpweisberg/cast-front-end',
     deploymentLink: 'https://castapp.netlify.app/',
-    tools: ['React', 'JavaScript', 'HTML', 'CSS', 'Express', 'Node', 'MongoDB']
+    tools: ['React', 'JavaScript', 'HTML', 'CSS', 'MongoDb', 'Express.js', 'RESTful API']
   },
 ]
 
