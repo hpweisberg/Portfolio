@@ -9,7 +9,7 @@ const Stack = () => {
     <>
       <h3 className={styles.frontTitle}>Front-End Tech Stack</h3>
       <div className={styles.stackContainer}>
-        {techStackFront.map((tech) =>
+        {techStackFront.sort((a, b) => a.name.localeCompare(b.name)).map((tech) =>
           <ul key={tech.name} className={styles.frontStack}>
             <li className={styles.name}>{tech.name}</li>
             <li className={styles.tech}><img src={tech.img} alt="logo" /></li>
@@ -18,7 +18,7 @@ const Stack = () => {
       </div>
       <h3 className={styles.frontTitle}>Back-End Tech Stack</h3>
       <div className={styles.stackContainer}>
-        {techStackBack.map((tech) =>
+        {techStackBack.sort((a, b) => a.name.localeCompare(b.name)).map((tech) =>
           <ul key={tech.name} className={styles.frontStack}>
             <li className={styles.name}>{tech.name}</li>
             <li className={styles.tech}><img src={tech.img} alt="logo" /></li>
