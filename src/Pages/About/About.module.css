@@ -5,10 +5,13 @@
   overflow-x: hidden;
   font-size: var(--fs-900);
   justify-content: flex-end;
+  margin-top: 80px;
+  /* flex-direction: column; */
 }
 
 
 .heroImg {
+  left: 0;
   width: 100vw;
   height: 100vh;
   background-image: url('../../assets/about2.jpeg');
@@ -16,10 +19,10 @@
   background-size: cover;
   /* scale: 100%; */
   background-position: left;
-  position: absolute;
+  position: fixed;
   z-index: 3;
   clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
-  
+  /* display: none; */
 }
 
 .pop {
@@ -39,6 +42,7 @@
   justify-content: center;
   margin: 0 3rem;
   padding: 0 4em 9em 0;
+  right: 0;
   /* padding-bottom: 9em; */
   /* border: 2px red solid; */
 }
@@ -52,4 +56,45 @@
   font-size: 1.22rem;
   letter-spacing: 0.51px;
   line-height: 2rem;
+}
+
+@media screen and (max-width:1275px ) {
+  .aboutContainer{
+    flex-direction: column; 
+    align-items: center;
+    overflow: scroll;
+  }
+
+  .aboutContainer > * {
+    text-align: center;
+    margin: 0 0;
+    padding: 0 0;
+    border: 0 0;
+  }
+
+  .heroImg > * {
+    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); */
+    /* background-size: cover; */
+  }
+  
+  .heroImg {
+    display: none;
+
+  }
+
+  .aboutTextContainer { 
+    width: 80vw;
+    max-height: 100vh;
+    
+  }
+  
+  .mobileImgContainer {
+    display: block;
+
+  }
+
+  .about {
+    font-size: 3em;
+  }
+  
 }

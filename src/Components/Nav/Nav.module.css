@@ -15,6 +15,26 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    color: blue;
+    background-color: red;
+    /* position: relative; */
+    width: 100vw;
+    right: 0;
+    z-index: 1;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    height: 80px;
+    padding: 0 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+  }
+
+  
+  .navigationBar > * {
+
   }
 
   .pageLinks {
@@ -47,20 +67,6 @@
     /* border: red 4px solid; */
     height: auto;
     width: auto;
-  }
-
-  .navigationBar {
-    position: fixed;
-    width: 100vw;
-    right: 0;
-    z-index: 1;
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    height: 80px;
-    padding: 0 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .pageLinks {

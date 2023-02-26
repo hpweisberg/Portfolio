@@ -4,13 +4,10 @@ body,
 main {
   margin: 0;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* overflow-x: hidden; */
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   display: flex;
 }
 
-.navBar > * {
-  border: red 4px solid;
-  
-}

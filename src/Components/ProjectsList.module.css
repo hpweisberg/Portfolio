@@ -18,3 +18,29 @@
 .projectListBody > * {
   height: 100%;
 }
+
+@media screen and (max-width:1275px ) {
+  .projectListBody{
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  .projectListBody > * {
+    border: 2px solid red;
+    text-align: center;
+    margin: 0 0;
+    padding: 0 0;
+    border: 0 0;
+    width: 80vw;
+  }
+  
+  .projectTextContainer { 
+    ;
+  }
+  
+  .mobileImgContainer {
+    display: block;
+
+  }
+  
+}

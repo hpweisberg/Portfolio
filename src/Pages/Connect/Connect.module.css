@@ -5,6 +5,7 @@
   overflow-x: hidden;
   font-size: var(--fs-900);
   justify-content: flex-end;
+  margin-top: 80px;
 }
 
 
@@ -15,8 +16,9 @@
   background-repeat: no-repeat;
   background-size: 56%;
   /* background-position:80% ; */
-  position: absolute;
+  position: fixed;
   z-index: 3;
+  left: 0;
   clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
 
 }
@@ -24,11 +26,11 @@
 .connectTextContainer {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 45%;
   justify-content: center;
   align-items: flex-end;
   margin: 0 3rem;
-  padding-bottom: 9em;
+  padding: 0 4em 9em 0;
   /* border: 2px red solid; */
 }
 
@@ -162,4 +164,60 @@ textarea {
 
 .popTitle {
   color: #61c9a8;
+}
+
+@media screen and (max-width:1275px ) {
+  .connectContainer{
+    flex-direction: column; 
+    align-items: center;
+    overflow-y: scroll;
+    justify-content: flex-start;
+    max-height: 100vh;
+    border: #61c9a8 solid 2px;
+    padding: 2em 0;
+  }
+
+  .connectContainer > * {
+    text-align: center;
+    margin: 0 0;
+    padding: 0 0;
+    border: 0 0;
+  }
+
+  .heroImg > * {
+    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); */
+    /* background-size: cover; */
+  }
+  
+  .heroImg {
+    display: none;
+
+  }
+
+  .connectTextContainer { 
+    width: 80vw;
+    max-height: 100vh;
+    display: flex;
+    border: red solid 2px;
+    align-items: center;
+    
+  }
+
+  .connectTextContainer > * { 
+    justify-content: center;
+    
+  }
+  
+  .mobileImgContainer {
+    display: block;
+
+  }
+
+  .sendMessageBtn > * {
+    padding: 1em em ;
+  }
+  
+  .connect > h1 {
+    font-size: 3em;
+  }
 }

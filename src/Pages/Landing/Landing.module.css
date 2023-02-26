@@ -1,10 +1,11 @@
 .landingContainer {
   min-width: 100vw;
   display: flex;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
   font-size: var(--fs-900);
   justify-content: flex-end;
+  margin-top: 80px;
 }
 
 
@@ -15,7 +16,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  position: absolute;
+  position: fixed;
   z-index: 3;
   clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
   
@@ -28,7 +29,7 @@
   background-size: cover;
   /* border: 5px rgb(0, 255, 123) solid; */
   background-image: url('../../assets/hero-image-sand.png');
-  position: absolute;
+  position: fixed;
   z-index: 4;
   animation: sandSlideIn 1700ms ease-out 3000ms 1 normal forwards;
   height: 100vh;
@@ -38,7 +39,7 @@
   width: 100vh;
   height: 100vh;
   background-size: cover;
-  position: absolute;
+  position: fixed;
   /* border: 5px rgb(0, 30, 255) solid; */
   background-image: url('../../assets/hero-harrison.png');
   z-index: 5;
@@ -52,8 +53,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-  position: absolute;
+  position: fixed;
   z-index: 2;
+  left: 0;
   clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
 }
 
@@ -143,7 +145,9 @@
   .landingContainer{
     flex-direction: column; 
     align-items: center;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
+    /* max-height: 100vh; */
+    
   }
 
   .landingContainer > * {
