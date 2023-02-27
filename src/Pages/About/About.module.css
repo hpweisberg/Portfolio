@@ -57,7 +57,9 @@
   .aboutContainer{
     flex-direction: column; 
     align-items: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    /* border: red 2px solid; */
+    
   }
   
   .aboutContainer > * {
@@ -74,7 +76,6 @@
 
   .aboutTextContainer { 
     width: 80vw;
-    max-height: 100vh;
   }
   
   .mobileImgContainer {

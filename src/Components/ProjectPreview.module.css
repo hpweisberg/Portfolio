@@ -8,7 +8,7 @@
 }
 
 
-.imageContainer > img {
+.imageContainer>img {
   width: 100%;
   justify-content: flex-end;
   border-radius: 5px;
@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-.links > a > h2 {
+.links>a>h2 {
   font-size: 3rem;
   margin: .2em;
   border-left: 4px solid rgb(7, 5, 28);
@@ -31,12 +31,12 @@
   color: black;
 }
 
-.links > a {
+.links>a {
   color: #61c9a8;
   cursor: pointer;
 }
 
-.links > a > img {
+.links>a>img {
   width: 3em;
   height: 3em;
   border-radius: 5px;
@@ -50,7 +50,7 @@
   border-radius: 5px;
 }
 
-.imageContainer:hover > p {
+.imageContainer:hover>p {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -59,7 +59,7 @@
   right: 0;
   background-color: rgba(40, 39, 39, 0.8);
   color: white;
-  text-align: center; 
+  text-align: center;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -69,36 +69,8 @@
   line-height: 2rem;
 }
 
-.imageContainer > p {
+.imageContainer>p {
   display: none;
-}
-
-@media screen and (max-width:1275px ) {
-  .projectCard{
-    flex-direction: column; 
-    align-items: center;
-  }
-  
-  .projectsContainer > * {
-    text-align: center;
-    margin: 0 0;
-    padding: 0 0;
-    border: 0 0;
-  }
-  
-  .imageContainer {
-    display: flex;
-    position: relative;
-  }
-
-  .projectTextContainer { 
-    width: 80vw;
-  }
-  
-  .mobileImgContainer {
-    display: block;
-  }
-  
 }
 
 .imageTechContainer {
@@ -123,8 +95,73 @@
   gap: 10px;
 
 }
+
 .techUsed img {
   width: 2em;
   height: 2em;
   margin: 0.5em;
 }
+
+@media screen and (max-width:1275px) {
+  .projectCard {
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+  .projectsContainer>* {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0;
+    padding: 0 0;
+    border: 0 0;
+  }
+
+  .imageContainer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    border: 1px solid red;
+    margin: 0;
+    border: 0;
+  }
+
+  .projectTextContainer {
+    width: 80vw;
+  }
+
+  .mobileImgContainer {
+    display: block;
+  }
+
+  .imageTechContainer {
+    flex-direction: column;
+  }
+
+  .techUsed {
+    order: 1;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-height: 320px;
+    width: auto;
+    padding: 0.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px 0 0 5px;
+    flex-wrap: wrap;
+    gap: 10px;
+  
+  }
+
+}
+

@@ -16,12 +16,12 @@ const ProjectPreview = (props) => {
   function getToolImage(toolName) {
     let img = ''
     techStackFront.forEach(tool => {
-      if (tool.name === toolName){
+      if (tool.name === toolName) {
         img = tool.img
       }
     })
     techStackBack.forEach(tool => {
-      if (tool.name === toolName){
+      if (tool.name === toolName) {
         img = tool.img
       }
     })
@@ -33,23 +33,23 @@ const ProjectPreview = (props) => {
     <>
 
       <div className={styles.projectCard}>
-        
+
         <div className={styles.links}>
           <a href={props.repoLink} target='_blank' rel='noreferrer'><img src={githublogo} alt="" /></a>
           <a href={props.deploymentLink} target='_blank' rel='noreferrer'><h2>{props.name}</h2></a>
         </div>
         <div className={styles.imageTechContainer}>
 
-        <div className={styles.techUsed}>
-          {props.tools.map((tool, idx) => (
-            <img key={idx} src={getToolImage(tool)} alt={tool} />
+          <div className={styles.techUsed}>
+            {props.tools.map((tool, idx) => (
+              <img key={idx} src={getToolImage(tool)} alt={tool} />
             ))}
+          </div>
+          <div className={styles.imageContainer}>
+            <img src={props.image} alt="screenshoot of app" />
+            <p>{props.description}</p>
+          </div>
         </div>
-        <div className={styles.imageContainer}>
-          <img src={props.image} alt="screenshoot of app" />
-          <p>{props.description}</p>
-        </div>
-            </div>
 
       </div>
     </>

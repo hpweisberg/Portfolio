@@ -15,6 +15,9 @@
   .projectListBody{
     flex-direction: column; 
     align-items: center;
+    /* background-color: red; */
+    justify-content: center;
+    padding: 0;
   }
   
   .projectListBody > * {
@@ -23,6 +26,8 @@
     padding: 0 0;
     border: 0 0;
     width: 80vw;
+    justify-content: center;
+    align-items: center;
   }
 
   
