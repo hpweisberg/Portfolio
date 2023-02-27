@@ -1,8 +1,6 @@
 .projectsContainer {
   min-width: 100vw;
   display: flex;
-  /* overflow-y: hidden; */
-  /* overflow-x: hidden; */
   font-size: var(--fs-900);
   justify-content: flex-end;
   margin-top: 80px;
@@ -17,7 +15,6 @@
   background-size: contain;
   background-position: left;
   position: fixed;
-  /* top: 15px; */
   z-index: 3;
   left: 0;
   clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
@@ -29,22 +26,13 @@
   width: 50%;
   text-align: right;
   justify-content: center;
-  /* border: 2px red solid; */
   margin: 0em 3rem 0 0;
-  /* padding-bottom: 109em; */
-  /* border: 5px solid green; */
-  /* min-height: 100vh; */
-  /* overflow-y: scroll; */
   padding: 0 4em 0 0;
-  /* overflow: scroll !important; */
-
-  /* max-height: calc(100vh - 8em); */
 }
 
 .projects {
   font-size: 3.3rem;
   margin-bottom: .5rem;
-  /* padding-top: 5.5em; */
 }
 
 .aboutTextContainer > p {
@@ -72,21 +60,14 @@
   .projectsContainer{
     flex-direction: column; 
     align-items: center;
-    overflow: scroll !important;
   }
   
   .projectsContainer > * {
-    border: 2px solid rgb(255, 41, 41);
     text-align: center;
     margin: 0 0;
     padding: 0 0;
     border: 0 0;
-    overflow: scroll !important;
-  }
 
-  .heroImg > * {
-    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); */
-    /* background-size: cover; */
   }
   
   .heroImg {
@@ -96,13 +77,10 @@
 
   .projectTextContainer { 
     width: 90vw;
-    overflow: scroll !important;
-    ;
   }
   
   .mobileImgContainer {
     display: block;
-
   }
 
   .projects {

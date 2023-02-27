@@ -1,8 +1,6 @@
 .projectCard {
   position: relative;
-  /* border: 5px solid red; */
   height: 100%;
-  /* width: 48vw; */
   list-style-type: none;
   margin-bottom: 5em;
   display: flex;
@@ -11,8 +9,6 @@
 
 
 .imageContainer > img {
-  /* border: 5px solid red; */
-  /* height: 200px; */
   width: 100%;
   justify-content: flex-end;
   border-radius: 5px;
@@ -52,8 +48,6 @@
   height: 20em;
   width: 30em;
   border-radius: 5px;
-  /* border: 5px solid red; */
-  
 }
 
 .imageContainer:hover > p {
@@ -66,7 +60,6 @@
   background-color: rgba(40, 39, 39, 0.8);
   color: white;
   text-align: center; 
-  /* padding: 0.5em; */
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -84,8 +77,6 @@
   .projectCard{
     flex-direction: column; 
     align-items: center;
-    overflow-y: scroll;
-    border: 2px solid red;
   }
   
   .projectsContainer > * {
@@ -93,11 +84,6 @@
     margin: 0 0;
     padding: 0 0;
     border: 0 0;
-  }
-
-  .imageContainer > * {
-    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); */
-    /* background-size: cover; */
   }
   
   .imageContainer {
@@ -111,7 +97,6 @@
   
   .mobileImgContainer {
     display: block;
-
   }
   
 }
@@ -121,7 +106,6 @@
 }
 
 .techUsed {
-  /* position: float-left; */
   order: -1;
   top: 0;
   right: 10;

@@ -12,7 +12,6 @@ const Nav = () => {
   const [toggleNav, setToggleNav] = useState(false)
   const links = useRef()
 
-  // const navRef = useRef()
 
   function clickMenu(evt) {
     setToggleNav(!toggleNav)
@@ -24,12 +23,6 @@ const Nav = () => {
     links.current.style.marginLeft = widthVal
   }, [toggleNav])
 
-  // let pageClass;
-  // if (window.innerWidth >= 1275) {
-  //   pageClass = styles.pageLinks;
-  // } else {
-  //   pageClass = styles.mobilePageLinks;
-  // }
 
   return (
     <>

@@ -3,11 +3,8 @@ import ProjectsList from '../../Components/ProjectsList'
 import styles from './Projects.module.css'
 
 
-// import { useState } from 'react'
-
-
 const Projects = () => {
-  // const [projectData, setProjectData] = useState(projectData)
+
 
   return (
     <>

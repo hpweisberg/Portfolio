@@ -10,11 +10,11 @@ const Connect = () => {
   const onButtonClick = () => {
     fetch('HarrisonWeisbergResume.pdf').then(response => {
         response.blob().then(blob => {
-            const fileURL = window.URL.createObjectURL(blob);
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'HarrisonWeisbergResume.pdf';
-            alink.click();
+            const fileURL = window.URL.createObjectURL(blob)
+            let alink = document.createElement('a')
+            alink.href = fileURL
+            alink.download = 'HarrisonWeisbergResume.pdf'
+            alink.click()
         })
     })
   }
@@ -32,7 +32,6 @@ const Connect = () => {
               <a href="https://github.com/hpweisberg" className={styles.github}><img src={github} alt="" /></a>
               <a href="https://www.linkedin.com/in/harrisonweisberg/" className={styles.linkedIn}><img src={linkedIn} alt="" /></a>
               <a href="https://twitter.com/Harrison_PW" className={styles.twitter}><img src={twitter} alt="" /></a>
-              {/* Fix download */}
               <div className={styles.resume} onClick={onButtonClick}><img src={resume} alt="resume" /></div>
             </div>
           </section>

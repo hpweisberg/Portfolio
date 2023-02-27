@@ -6,18 +6,25 @@ const Hamburger = ({ clickMenu, toggleNav }) => {
 
     return (
         <div className={styles.hamburger} onClick={clickMenu}>
-            {!toggleNav
+                <>
+                    <span />
+                    <span />
+                    <span />
+                </>
+                
+            {/* {!toggleNav
                 ? <>
                     <span />
                     <span />
                     <span />
                 </>
                 : 
-                <div className={styles.closeX}>
+                <div className={styles.hamburger}>
+                    <span />
                     <span />
                     <span />
                 </div>
-                }
+                } */}
         </div>
     )
 }
