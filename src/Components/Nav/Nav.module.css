@@ -106,7 +106,6 @@
     gap: 5em;
     padding-top: 100px;
     transition: all 0.5s ease;
-    border: 2px solid blue;
     align-items: center;
     font-size: 1rem;
   }

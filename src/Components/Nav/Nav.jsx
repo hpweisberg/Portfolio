@@ -15,7 +15,6 @@ const Nav = () => {
 
   function clickMenu(evt) {
     setToggleNav(!toggleNav)
-    console.log(toggleNav)
   }
 
   useEffect( () => {
@@ -30,9 +29,9 @@ const Nav = () => {
 
         <Hamburger clickMenu={clickMenu} toggleNav={toggleNav}/>
         <div ref={links} className={styles.mobilePageLinks}>
-          <NavLink to='/About' >About</NavLink>
-          <NavLink to='/Projects' >Projects</NavLink>
-          <NavLink to='/Connect' >Connect</NavLink>
+          <NavLink onClick={clickMenu} to='/About' >About</NavLink>
+          <NavLink onClick={clickMenu} to='/Projects' >Projects</NavLink>
+          <NavLink onClick={clickMenu} to='/Connect' >Connect</NavLink>
         </div>
         <NavLink to='/' id={styles.logoMobile} ><img src={logo} alt="HW logo" /></NavLink>
         <div className={styles.pageLinks}>
