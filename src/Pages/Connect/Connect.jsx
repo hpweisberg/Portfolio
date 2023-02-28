@@ -36,7 +36,28 @@ const Connect = () => {
             </div>
           </section>
 
-          <form action="POST" autoComplete='off' className={styles.form}>
+          <form data-netlify="true" autoComplete='off' className={styles.form}>
+            <div className={styles.formTop}>
+              <div className={styles.topName}>
+
+                <label type='hidden' name='subject' value='Message from harrisonweisberg.com'></label>
+                <label htmlFor="nameInput">Name</label>
+                <input type="text" name="name" id='nameInput' required></input>
+              </div>
+              <div className={styles.topEmail}>
+                <label htmlFor="emailInput">Email</label>
+                <input type="email" name="email" id='emailInput' required></input>
+              </div>
+            </div>
+            <div className={styles.message}>
+
+              <label htmlFor="messageInput">Message</label>
+              <textarea type="text" name="message" id='messageInput' required></textarea>
+            </div>
+
+            <button className={styles.sendMessageBtn} type='submit'>Send</button>
+          </form>
+          {/* <form action="POST" autoComplete='off' className={styles.form}>
             <div className={styles.formTop}>
               <div className={styles.topName}>
 
@@ -55,7 +76,7 @@ const Connect = () => {
             </div>
 
             <button className={styles.sendMessageBtn} type='submit'>Send</button>
-          </form>
+          </form> */}
         </div>
       </div >
     </>
