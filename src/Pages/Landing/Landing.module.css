@@ -70,6 +70,7 @@
 
 .heroContentContainer > h1 {
   font-weight: 500;
+  
 }
 
 .heroContentContainer > h1:nth-child(2){
@@ -129,6 +130,7 @@ button {
   border-radius: 25px;
   font-weight: 600;
   background-color: whitesmoke;
+  margin-bottom: 6em;
 }
 
 button:hover {
@@ -160,6 +162,7 @@ button:hover {
   position: relative;
   width: 100vw;
   display: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 @media screen and (max-width:1275px ) {
@@ -177,6 +180,7 @@ button:hover {
   
   .mobileImg{
     display: block;
+    margin-top: 2em;
   }
 
   .heroImgContainer {
@@ -194,6 +198,11 @@ button:hover {
   }
 
   .heroContentContainer > h1 {
-    margin-top: 1.4em;
+    margin: 1.4em 1em 0 1em;
+  }
+
+  .name {
+    /* color: red; */
+    /* border-bottom: 3em; */
   }
 }

@@ -29,7 +29,7 @@ const Connect = ({onButtonClick}) => {
           <section className={styles.connect}>
             <h1>Lets <span className={styles.popTitle}>Chat</span></h1>
             <div className={styles.socialLinks}>
-              <a href='#' alt='resume' className={styles.resume} onClick={onButtonClick}><img src={resume} alt="resume" /><p onClick={onButtonClick}>Resume</p></a>
+              <div className={styles.resume} onClick={onButtonClick}><img src={resume} alt="resume" /><p onClick={onButtonClick}>Resume</p></div>
               <a href="https://github.com/hpweisberg" className={styles.github}><img src={github} alt="" /><p>GitHub</p></a>
               <a href="https://www.linkedin.com/in/harrisonweisberg/" className={styles.linkedIn}><img src={linkedIn} alt="" /><p>LinkedIn</p></a>
               <a href="https://twitter.com/Harrison_PW" className={styles.twitter}><img src={twitter} alt="" /><p>Twitter</p></a>

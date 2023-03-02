@@ -71,9 +71,10 @@
   flex-direction: row;
 } */
 
-.socialLinks>a>img,
-.resume>img:hover {
+.resume:hover {
+  color: #c97b0d; 
   cursor: pointer;
+
 }
 
 .socialLinks>a>img,
