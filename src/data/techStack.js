@@ -54,6 +54,14 @@ const techStackBack = [
     name: 'RESTful API',
     img: './icons8-rest-api-96.png'
   },
+  {
+    name: 'Git',
+    img: './icons8-git-96.png'
+  },
+  {
+    name: 'Postman',
+    img: './postman.png'
+  },
 
 ]
 
