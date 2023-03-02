@@ -191,4 +191,8 @@
 
   }
 
+  .imageContainer > img {
+    width: 400px;
+  }
+
 }

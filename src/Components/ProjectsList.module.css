@@ -18,6 +18,15 @@
     /* background-color: red; */
     justify-content: center;
     padding: 0;
+    /* width: 80vw; */
+    /* max-width: 500px; */
+    /* max-height: 500px; */
+    /* margin-bottom: 1em; */
+  }
+
+  .projectListBody > li {
+    /* background-color: black; */
+    margin: 0;
   }
   
   .projectListBody > * {
