@@ -258,6 +258,8 @@ button:hover {
   }
   .mobileImg:nth-child(3) {
     animation: slideIn 1500ms ease-out 00ms 1 normal forwards;
+    -webkit-animation: slideIn 1500ms ease-out 00ms 1 normal forwards;
+    -moz-animation: slideIn 1500ms ease-out 00ms 1 normal forwards;
     overflow: hidden;
     box-shadow: none;
     
