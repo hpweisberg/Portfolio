@@ -20,7 +20,7 @@ const Landing = ({ onButtonClick }) => {
 
         <div className={styles.heroContentContainer}>
           <h1>Welcome to my corner of the tech world – I'm  <br /><span className={styles.name}>HARRISON WEISBERG</span> <br /></h1>
-          <img src={mobileImg} alt="Harrison sliding on sand" />
+          <img src={mobileImg} alt="Harrison sliding on sand" className={styles.mobileImg} />
           <h1>
             <span className={styles.subNameSpan}>engineer, designer, creator extraordinaire.</span> Leveraging my years of experience in PR & brand management, I bring a unique perspective to app development. </h1>
           <div className={styles.projectsResume}>
