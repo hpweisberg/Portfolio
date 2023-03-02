@@ -143,6 +143,8 @@
 
     #logoMobile {
       display: flex;
+      display: flex;
+      border: none;
     }
 
     .pageLinks {
