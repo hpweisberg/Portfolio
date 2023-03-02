@@ -40,8 +40,36 @@
 .socialLinks {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
+  flex-direction: column;
+
 }
+
+.socialLinks > * {
+  /* border: 2px red solid; */
+  display: flex;
+  gap: 1em;
+  font-size: 1.8em;
+  color: black;
+  margin: .5em;
+  font-weight: 400;
+}
+
+.socialLinks > img {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.socialLinks > a {
+  text-decoration: none;
+}
+.socialLinks > a:hover {
+  color: #c97b0d;
+}
+
+/* .github, .linkedIn, .twitter, .resume {
+  flex-direction: row;
+} */
 
 .socialLinks>a>img,
 .resume>img:hover {

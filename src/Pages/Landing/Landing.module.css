@@ -4,6 +4,7 @@
   font-size: var(--fs-900);
   justify-content: flex-end;
   margin-top: 80px;
+  overflow: hidden!;
 }
 
 
@@ -58,7 +59,7 @@
   display: flex;
   flex-direction: column;
   width:45%;
-  height: 90vh;
+  height: 70vh;
   text-align: right;
   margin: 7rem 3rem 0 3rem;
   padding: 1rem 4em 3em 0;
@@ -67,10 +68,15 @@
   line-height: 2.5rem;
 }
 
+.heroContentContainer > h1 {
+  font-weight: 500;
+}
+
 .name {
-  font-size: 3.0rem;
+  font-size: 3.5rem;
   color: #61c9a8;
   line-height: 4rem;
+  margin: .7em 0;
   
 }
 
@@ -82,6 +88,7 @@
 .subNameSpan {
   font-size: 1.8rem;
   border-bottom: 4px solid #f4eabe;;
+  display: none;
 }
 
 .subName {
@@ -154,6 +161,7 @@
   .heroContentContainer { 
     width: 80vw;
   }
+
   
   .mobileImgContainer {
     height: 15em;
