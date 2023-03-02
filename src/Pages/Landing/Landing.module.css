@@ -72,6 +72,10 @@
   font-weight: 500;
 }
 
+.heroContentContainer > h1:nth-child(2){
+  margin-top: 0;
+}
+
 .name {
   font-size: 3.5rem;
   color: #61c9a8;
@@ -152,6 +156,30 @@ button:hover {
   }
 }
 
+.mobileImg {
+  position: relative;
+  width: 100vw;
+  display: block;
+}
+
+.mobileImg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mobileImgPic {
+  z-index: -1;
+}
+
+.mobileImgSand {
+  z-index: 0;
+}
+
+.mobileImgMe {
+  z-index: 1;
+}
+
 @media screen and (max-width:1275px ) {
   .landingContainer{
     flex-direction: column; 
@@ -174,7 +202,9 @@ button:hover {
   }
 
   .heroContentContainer { 
-    width: 80vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
   }
 
   

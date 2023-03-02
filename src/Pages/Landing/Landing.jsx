@@ -3,11 +3,12 @@ import styles from './Landing.module.css'
 import backgroundImg from '../../assets/hero-image.jpg'
 import sandSlideImg from '../../assets/hero-image-sand.png'
 import meImg from '../../assets/hero-harrison.png'
+import mobileImg from '../../assets/mobileLanding.png'
 import { NavLink } from 'react-router-dom'
 
 
 
-const Landing = ( {onButtonClick} ) => {
+const Landing = ({ onButtonClick }) => {
   return (
     <>
       <div className={styles.landingContainer}>
@@ -18,7 +19,9 @@ const Landing = ( {onButtonClick} ) => {
         </div>
 
         <div className={styles.heroContentContainer}>
-          <h1>Welcome to my corner of the tech world – I'm  <br /><span className={styles.name}>HARRISON WEISBERG</span> <br />
+          <h1>Welcome to my corner of the tech world – I'm  <br /><span className={styles.name}>HARRISON WEISBERG</span> <br /></h1>
+          <img src={mobileImg} alt="Harrison sliding on sand" />
+          <h1>
             <span className={styles.subNameSpan}>engineer, designer, creator extraordinaire.</span> Leveraging my years of experience in PR & brand management, I bring a unique perspective to app development. </h1>
           <div className={styles.projectsResume}>
             <NavLink to='/Projects' ><button>PROJECTS</button></NavLink>
