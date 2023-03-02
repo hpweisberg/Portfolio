@@ -9,7 +9,7 @@ const myProjects = [
   },
   {
     name: 'FLYy',
-    description: `The flight tracker for you and your friends! Add your own flights and link up with your friends and family so you can stay up to date and upcoming trip. 
+    description: `The flight tracker for you and your friends! Add your own flights and stay up to date by link up with your friends and family. 
     Check out your friend's journey posts or perhaps use the myJourney section to know when your family has landed safe and sound after each flight.`,
     screenshot: '/flyy.jpg',
     repoLink: 'https://github.com/hpweisberg/FLYy',
@@ -18,7 +18,7 @@ const myProjects = [
   },
   {
     name: 'CAST',
-    description: `A better way for Casting Directors to get paired up with production talent. This app was born out of a desire to optimize a very manual casting process. Instead of sifting through resumes one by one, Cast allows Talent to setup a profile and have Casting Directors reach out to them. Its more simple, streamined, and modern.`,
+    description: `A better way for Casting Directors to get paired up with production talent. Instead of sifting through resumes one by one, Cast allows Talent to setup a profile and have Casting Directors reach out to them. Its more simple, streamined, and modern.`,
     screenshot: '/castDesktop.png',
     repoLink: 'https://github.com/hpweisberg/cast-front-end',
     deploymentLink: 'https://castapp.netlify.app/',
@@ -31,6 +31,14 @@ const myProjects = [
     repoLink: 'https://github.com/hpweisberg/TTT-TS',
     deploymentLink: 'https://ttt-ts-harrison.netlify.app/',
     tools: ['TypeScript', 'HTML', 'CSS']
+  },
+  {
+    name: 'Top Dog',
+    description: `Inspired by the show Comunnity, Top Dog features the same creative spirit behind Meow Meow Beans! In this PERN stack application, users can create profiles, rate each other, update account information and delete their account.`,
+    screenshot: '/topDog.png',
+    repoLink: 'htthttps://github.com/hpweisberg/top-dog-front',
+    deploymentLink: 'https://topdog-hw.netlify.app/',
+    tools: ['TypeScript', 'React', 'PostgreSQL', 'Sequilize', 'HTML', 'CSS']
   },
 ]
 
