@@ -25,7 +25,7 @@ const myProjects = [
     tools: ['React', 'JavaScript', 'HTML', 'CSS', 'MongoDb', 'Express.js', 'RESTful API']
   },
   {
-    name: 'Tic Tac Toe',
+    name: 'Tic-Tac-Toe',
     description: `A remake of my first project utilizing TypeScript. Players can enter their own name to personalize the experince.`,
     screenshot: '/ttt.png',
     repoLink: 'https://github.com/hpweisberg/TTT-TS',

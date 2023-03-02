@@ -5,6 +5,7 @@
   justify-content: flex-end;
   margin-top: 80px;
   overflow: hidden!;
+  /* background-color: red; */
 }
 
 
@@ -201,8 +202,4 @@ button:hover {
     margin: 1.4em 1em 0 1em;
   }
 
-  .name {
-    /* color: red; */
-    /* border-bottom: 3em; */
-  }
 }

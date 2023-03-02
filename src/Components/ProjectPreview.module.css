@@ -126,9 +126,11 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    width: 85vw;
+    width: auto;
     border: 0;
     margin: 0;
+    height: auto;
+    min-width: 100px;
   }
 
   .projectTextContainer {
@@ -144,7 +146,7 @@
     flex-direction: row;
     justify-content: right;
     align-items: center;
-    padding-bottom: 3em;
+    /* padding-bottom: 3em; */
   }
 
   .links > a > h2 {
@@ -170,6 +172,7 @@
 
   .imageTechContainer {
     flex-direction: column;
+    /* height: 65vh; */
   }
 
   .techUsed {
@@ -185,14 +188,20 @@
     padding: 0.5em;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    border-radius: 5px 0 0 5px;
+    border-radius: 0 0 5px 5px;
     flex-wrap: wrap;
     gap: 10px;
 
   }
 
   .imageContainer > img {
-    width: 400px;
+    /* width: 400px; */
+    max-width: 700px;
+    min-width: 350px;
   }
 
+
+  .imageContainer:hover>p {
+    font-size: .8em;
+  }
 }
