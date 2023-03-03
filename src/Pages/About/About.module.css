@@ -10,13 +10,15 @@
 
 
 .heroImg {
-  left: 0;
+  /* left: 0; */
   width: 100vw;
   height: 100vh;
-  background-image: url('../../assets/about2.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
+  /* background-image: url('../../assets/about2.jpeg'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: left; */
+  object-fit: cover;
+  object-position: 10%;
   position: fixed;
   z-index: 3;
   clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
@@ -40,6 +42,7 @@
   margin: 0 3rem;
   padding: 0 4em 9em 0;
   right: 0;
+  /* z-index: 3; */
 }
 
 .about {

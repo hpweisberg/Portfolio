@@ -1,5 +1,8 @@
 import styles from './About.module.css'
 
+import aboutImg from '../../assets/about2.jpeg'
+// import aboutImg from '../../assets/aboutMe3.png'
+
 
 
 
@@ -8,8 +11,9 @@ const About = ({Stack, techStack}) => {
     <>
       <div className={styles.aboutContainer}>
 
-        <div className={styles.heroImg}>
-        </div>
+        {/* <div className={styles.heroImg}> */}
+        {/* </div> */}
+        <img src={aboutImg} alt="Harrison on a cliff in Zion National Park" className={styles.heroImg}/>
         <div className={styles.aboutTextContainer}>
 
           <h1 className={styles.about}>About <span className={styles.popTitle}>Me</span></h1>
