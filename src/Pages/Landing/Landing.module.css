@@ -17,8 +17,8 @@
   position: fixed;
   z-index: 3;
   clip-path: polygon(0 0, 27% 0, 56% 100%, 0 100%);
-
-
+  
+  
 }
 
 .sand {
@@ -68,7 +68,7 @@
 .heroContentContainer {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width:45%;
   height: 70vh;
   text-align: right;
   margin: 7rem 3rem 0 3rem;
@@ -78,12 +78,12 @@
   line-height: 2.5rem;
 }
 
-.heroContentContainer>h1 {
+.heroContentContainer > h1 {
   font-weight: 500;
-
+  
 }
 
-.heroContentContainer>h1:nth-child(2) {
+.heroContentContainer > h1:nth-child(2){
   margin-top: 0;
 }
 
@@ -93,7 +93,7 @@
   line-height: 4rem;
   margin: .7em 0;
   margin-bottom: 0;
-
+  
 }
 
 .pop {
@@ -103,8 +103,7 @@
 
 .subNameSpan {
   font-size: 1.8rem;
-  border-bottom: 4px solid #f4eabe;
-  ;
+  border-bottom: 4px solid #f4eabe;;
   display: none;
 }
 
@@ -114,7 +113,7 @@
   justify-content: space-between;
 }
 
-.subName>* {
+.subName > * {
   text-decoration: none;
   list-style-type: none;
   letter-spacing: 0.51px;
@@ -122,17 +121,15 @@
   font-weight: 500;
 }
 
-.subName>li:nth-child(1) {
+.subName >li:nth-child(1){
   border-bottom: #ed9b40 solid 5px;
   border-radius: 5px;
 }
-
-.subName>li:nth-child(2) {
+.subName >li:nth-child(2){
   border-bottom: #f4eabe solid 5px;
   border-radius: 5px;
 }
-
-.subName>li:nth-child(3) {
+.subName >li:nth-child(3){
   border-bottom: #61c9a8 solid 5px;
   border-radius: 5px;
 }
@@ -162,7 +159,6 @@ button:hover {
     transform: translate3d(0, 0, 0);
   }
 }
-
 @keyframes sandSlideIn {
   0% {
     width: 0%;
@@ -184,33 +180,31 @@ button:hover {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-@media screen and (max-width:1275px) {
-  .landingContainer {
-    flex-direction: column;
+@media screen and (max-width:1275px ) {
+  .landingContainer{
+    flex-direction: column; 
     align-items: center;
   }
-
-  .mobileImgContainer,
-  .mobileImg {
+  .mobileImgContainer, .mobileImg{
     align-items: left;
   }
+  
 
-
-  .landingContainer>* {
+  .landingContainer > * {
     text-align: center;
     margin: 0 0;
     padding: 0 0;
     border: 0 0;
     text-align: left;
   }
-
+  
   .heroContentContainer {
     max-width: 900px;
     min-width: 350px;
   }
-
-
-  .mobileImg {
+  
+  
+  .mobileImg{
     display: block;
     margin-top: 2em;
     max-width: 900px;
@@ -221,23 +215,21 @@ button:hover {
     display: none;
   }
 
-  .landing,
-  .sand,
-  .meImg {
+  .landing, .sand, .meImg {
     display: none;
   }
 
-  .heroContentContainer {
+  .heroContentContainer { 
     width: 100vw;
     display: flex;
     flex-direction: column;
   }
 
-  .heroContentContainer>h1 {
+  .heroContentContainer > h1 {
     margin: 1.4em 1em 0 1em;
   }
 
-  .heroContentContainer>h1:nth-child(2) {
+  .heroContentContainer > h1:nth-child(2) {
     margin: 0 .5em
   }
 
@@ -247,44 +239,40 @@ button:hover {
     justify-content: space-evenly;
   }
 
-  .mobileImgContainer {
+  .mobileImgContainer{
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
     max-height: 620px;
   }
-
+  
   .mobileImg {
     position: relative;
   }
-
   .mobileImg:nth-child(2) {
     position: absolute;
     box-shadow: none;
     left: 0;
   }
-
+  
   .mobileImg:nth-child(1) {
     box-shadow: none;
     position: absolute;
-
+    
   }
-
   .mobileImg:nth-child(3) {
     overflow-x: hidden;
     box-shadow: none;
   }
-
+  
   @keyframes sandSlideInMobile {
     0% {
       clip-path: inset(0 100% 0 0);
     }
-
     20% {
       clip-path: inset(0 100% 0 0);
     }
-
     100% {
       clip-path: inset(0 0 0 0);
     }
@@ -301,31 +289,4 @@ button:hover {
     -webkit-animation: sandSlideInMobile 3460ms ease-out 0s 1 normal forwards;
     -moz-animation: sandSlideInMobile 3460ms ease-out 0s 1 normal forwards;
   }
-}
-
-@keyframes hoverImg {
-  20% {
-    transform: rotate(15deg);
-  }
-
-  40% {
-    transform: rotate(-10deg);
-  }
-
-  60% {
-    transform: rotate(5deg);
-  }
-
-  80% {
-    transform: rotate(-5deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.meImg:hover, .mobileImg:hover {
-  animation: hoverImg 1000 1000 0 1 normal forwards;
-  cursor: pointer;
 }
