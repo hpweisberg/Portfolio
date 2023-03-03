@@ -28,8 +28,13 @@
   background-image: url('../../assets/hero-image-sand.png');
   position: fixed;
   z-index: 4;
-  animation: sandSlideIn 4560ms ease-out 00ms 1 normal forwards;
   height: 100vh;
+}
+
+.animateDesktopSandClass {
+  animation: sandSlideIn 4560ms ease-out 00ms 1 normal forwards;
+  -webkit-animation: sandSlideIn 4560ms ease-out 00ms 1 normal forwards;
+  -moz-animation: sandSlideIn 4560ms ease-out 00ms 1 normal forwards;
 }
 
 .meImg {
@@ -39,9 +44,14 @@
   position: fixed;
   background-image: url('../../assets/hero-harrison.png');
   z-index: 5;
-  animation: slideIn 1500ms ease-out 00ms 1 normal forwards;
 }
 
+.animateDesktopMeClass {
+  animation: slideIn 1500ms ease-out 00ms 1 normal forwards;
+  -webkit-animation: slideIn 1500ms ease-out 00ms 1 normal forwards;
+  -moz-animation: slideIn 1500ms ease-out 00ms 1 normal forwards;
+
+}
 
 .heroImgContainer {
   width: 100vw;
@@ -243,7 +253,6 @@ button:hover {
   .mobileImg:nth-child(2) {
     position: absolute;
     box-shadow: none;
-    /* animation: sandSlideInMobile 3460ms ease-out 0s 1 normal forwards; */
     left: 0;
   }
   
@@ -255,10 +264,6 @@ button:hover {
   .mobileImg:nth-child(3) {
     overflow-x: hidden;
     box-shadow: none;
-    /* animation: slideIn 1500ms ease-out 00ms 1 normal forwards;
-    -webkit-animation: slideIn 1500ms ease-out 00ms 1 normal forwards;
-    -moz-animation: slideIn 1500ms ease-out 00ms 1 normal forwards; */
-    
   }
   
   @keyframes sandSlideInMobile {
@@ -281,5 +286,7 @@ button:hover {
 
   .animateSandClass {
     animation: sandSlideInMobile 3460ms ease-out 0s 1 normal forwards;
+    -webkit-animation: sandSlideInMobile 3460ms ease-out 0s 1 normal forwards;
+    -moz-animation: sandSlideInMobile 3460ms ease-out 0s 1 normal forwards;
   }
 }

@@ -15,29 +15,33 @@ const Landing = ({ onButtonClick }) => {
 
   const animateMe = useRef(null)
   const animateSand = useRef(null)
+  const animateMeDesktop = useRef(null)
+  const animateSandDesktop = useRef(null)
+  
 
   function handleImgClick(){
-    console.log('hihi')
     animateMe.current.classList.remove(`${styles.animateMeClass}`)
     animateSand.current.classList.remove(`${styles.animateSandClass}`)
+    animateMeDesktop.current.classList.remove(`${styles.animateDesktopMeClass}`)
+    animateSandDesktop.current.classList.remove(`${styles.animateDesktopSandClass}`)
     void animateMe.current.offsetWidth
     void animateSand.current.offsetWidth
+    void animateMeDesktop.current.offsetWidth
+    void animateSandDesktop.current.offsetWidth
     animateMe.current.classList.add(`${styles.animateMeClass}`)
     animateSand.current.classList.add(`${styles.animateSandClass}`)
+    animateMeDesktop.current.classList.add(`${styles.animateDesktopMeClass}`)
+    animateSandDesktop.current.classList.add(`${styles.animateDesktopSandClass}`)
   }
 
-  // function handleImgClick() {
-  //   setPlayAnimation(true)
-  //   console.log('button cliucked')
-  //   // setPlayAnimation(false)
-  // }
+
   return (
     <>
       <div className={styles.landingContainer}>
         <div className={styles.heroImgContainer}>
           <div src={backgroundImg} alt="sand landscape" className={styles.landing}></div>
-          <div src={sandSlideImg} alt="sand landscape" className={styles.sand}></div>
-          <div src={meImg} alt="sand landscape" className={styles.meImg}></div>
+          <div src={sandSlideImg} alt="sand landscape" className={styles.sand} ref={animateSandDesktop}></div>
+          <div src={meImg} alt="sand landscape" className={styles.meImg} ref={animateMeDesktop} onClick={handleImgClick} onLoad={handleImgClick}></div>
         </div>
 
         <div className={styles.heroContentContainer}>
