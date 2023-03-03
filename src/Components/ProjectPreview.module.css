@@ -144,18 +144,22 @@
   .links {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
+    /* text-align: center; */
     /* padding-bottom: 3em; */
+    flex-wrap: nowrap;
+    min-width: 300px;
   }
 
   .links > a > h2 {
-    font-size: 3rem;
+    font-size: 2.2rem;
     margin: .2em;
     border-left: 4px solid rgb(7, 5, 28);
     border-color: #ed9b40;
     padding-left: .2em;
     color: black;
+    /* max-width: 300px; */
   }
 
   .links > a {
