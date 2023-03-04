@@ -1,5 +1,5 @@
 import styles from './ProjectPreview.module.css'
-import hyphenateWords from "../utilities/hyphenateWords"
+// import hyphenateWords from "../utilities/hyphenateWords"
 import githublogo from '../assets/githubMark.png'
 
 import { techStackBack, techStackFront } from '../data/techStack'
@@ -7,10 +7,8 @@ import { techStackBack, techStackFront } from '../data/techStack'
 
 const ProjectPreview = (props) => {
 
-  console.log('hihi', props.name, props.image, props.deploymentLink)
-
-  const path = hyphenateWords(props.name)
-  console.log(path)
+  // const path = hyphenateWords(props.name)
+  // console.log(path)
 
 
   function getToolImage(toolName) {
