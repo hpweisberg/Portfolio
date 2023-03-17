@@ -8,6 +8,14 @@ const myProjects = [
     tools: ['JavaScript', 'HTML', 'CSS']
   },
   {
+    name: 'Chores for Coins',
+    description: `Winner of GA's Spring Hack-a-thon. This app was designed to assist parents in teaching their children the value of money and patience. Our app rewards kids with coins for completing tasks or chores while working toward a goal or price agreed upon by their parents! (Deployed app coming soon!)`,
+    screenshot: '/ChoresForCoins.png',
+    repoLink: 'https://github.com/brendonvan/GA-SHT7',
+    // deploymentLink: ,
+    tools: ['React', 'Express.js', 'MongoDb', 'RESTful API', 'JavaScript', 'HTML', 'CSS']
+  },
+  {
     name: 'FLYy',
     description: `The flight tracker for you and your friends! Add your own flights and stay up to date by link up with your friends and family. 
     Check out your friend's journey posts or perhaps use the myJourney section to know when your family has landed safe and sound after each flight.`,
