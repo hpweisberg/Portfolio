@@ -9,11 +9,12 @@ const myProjects = [
   },
   {
     name: 'Chores for Coins',
-    description: `Winner of GA's Spring Hack-a-thon. This app was designed to assist parents in teaching their children the value of money and patience. Our app rewards kids with coins for completing tasks or chores while working toward a goal or price agreed upon by their parents! (Deployed app coming soon!)`,
+    description: `Winner of GA's Spring Hack-a-thon. This app was designed to assist parents in teaching their children the value of money and patience. Our app rewards kids with coins for completing tasks or chores while working toward a goal or price agreed upon by their parents!`,
     screenshot: '/ChoresForCoins.png',
     repoLink: 'https://github.com/brendonvan/GA-SHT7',
-    // deploymentLink: ,
-    tools: ['React', 'Express.js', 'MongoDb', 'RESTful API', 'JavaScript', 'HTML', 'CSS']
+    deploymentLink: `https://chores-for-coins.netlify.app/`,
+    tools: ['React', 'Express.js', 'MongoDb', 'RESTful API', 'JavaScript', 'HTML', 'CSS'],
+    hackathon: true,
   },
   {
     name: 'FLYy',
