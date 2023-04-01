@@ -43,11 +43,16 @@
 }
 
 .imageContainer {
-  display: flex;
+  display: inline-block;
   position: relative;
   height: 20em;
   width: 30em;
   border-radius: 5px;
+  overflow: hidden;
+}
+
+.imageContainer > img {
+  height: 20em;
 }
 
 .imageContainer:hover>p {
@@ -67,6 +72,7 @@
   font-size: 1.12rem;
   letter-spacing: 0.51px;
   line-height: 2rem;
+  z-index: 3;
 }
 
 .imageContainer>p {
@@ -102,14 +108,31 @@
   margin: 0.5em;
 }
 
+.hackathonBanner {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 120%;
+  height: auto;
+  z-index: 1;
+  background-color: rgba(53, 49, 115, 0.763);
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  transform: rotate(20deg);
+}
+
 @media screen and (max-width:1275px) {
   .projectCard {
-    /* flex-direction: column; */
     align-items: center;
-    /* border: 1px solid red; */
     margin: 3em;
     border: 0;
     padding: 0;
+    border-radius: 0;
   }
 
   .projectsContainer > * {
@@ -126,11 +149,9 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    width: auto;
     border: 0;
     margin: 0;
-    height: auto;
-    min-width: 100px;
+    min-width: 350px;
   }
 
   .projectTextContainer {
@@ -146,8 +167,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
-    /* padding-bottom: 3em; */
     flex-wrap: nowrap;
     min-width: 300px;
   }
@@ -159,7 +178,6 @@
     border-color: #ed9b40;
     padding-left: .2em;
     color: black;
-    /* max-width: 300px; */
   }
 
   .links > a {
@@ -170,13 +188,11 @@
   .links > a > img {
     width: 3em;
     height: 3em;
-    border-radius: 5px;
   }
 
 
   .imageTechContainer {
     flex-direction: column;
-    /* height: 65vh; */
   }
 
   .techUsed {
@@ -199,7 +215,7 @@
   }
 
   .imageContainer > img {
-    /* width: 400px; */
+
     max-width: 700px;
     min-width: 350px;
   }
@@ -207,5 +223,16 @@
 
   .imageContainer:hover>p {
     font-size: .8em;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .imageContainer{
+    width: 300px;
+  }
+
+  .hackathonBanner {
+    left: -20px;
+    width: 400px
   }
 }

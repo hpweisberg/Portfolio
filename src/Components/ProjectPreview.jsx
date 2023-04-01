@@ -41,11 +41,14 @@ const ProjectPreview = (props) => {
           <div className={styles.techUsed}>
             {props.tools.map((tool, idx) => (
               <img key={idx} src={getToolImage(tool)} alt={tool} />
-            ))}
+              ))}
           </div>
           <div className={styles.imageContainer}>
             <img src={props.image} alt="screenshoot of app" />
-            <p>{props.description}</p>
+            {props.hackathonWinner ? 
+              <div className={styles.hackathonBanner}><p>HACKATHON WINNER!</p></div>
+            : null}
+              <p>{props.description}</p>
           </div>
         </div>
 

@@ -28,7 +28,7 @@ const myProjects = [
   {
     name: 'CAST',
     description: `A better way for Casting Directors to get paired up with production talent. Instead of sifting through resumes one by one, Cast allows Talent to setup a profile and have Casting Directors reach out to them. Its more simple, streamined, and modern.`,
-    screenshot: '/castDesktop.png',
+    screenshot: '/castUpdatedScreenShot.png',
     repoLink: 'https://github.com/hpweisberg/cast-front-end',
     deploymentLink: 'https://castapp.netlify.app/',
     tools: ['React', 'JavaScript', 'HTML', 'CSS', 'MongoDb', 'Express.js', 'RESTful API']
