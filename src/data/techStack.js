@@ -62,6 +62,10 @@ const techStackBack = [
     name: 'Postman',
     img: './postman.png'
   },
+  {
+    name: 'Python',
+    img: './icons8-python-96.png'
+  },
 
 ]
 
