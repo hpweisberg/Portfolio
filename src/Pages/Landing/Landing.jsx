@@ -56,8 +56,10 @@ const Landing = ({ onButtonClick }) => {
           <h1>
             <span className={styles.subNameSpan}>engineer, designer, creator extraordinaire.</span> Leveraging my years of experience in PR & brand management, I bring a unique perspective to app development. </h1>
           <div className={styles.projectsResume}>
-            <NavLink to='/Projects' ><button>PROJECTS</button></NavLink>
-            <button onClick={onButtonClick}>RESUME</button>
+            <NavLink to='/Projects'><button className='btnLanding'>PROJECTS</button></NavLink>
+            <button onClick={onButtonClick} className='btnLanding'>RESUME</button>
+            <a href='https://www.youtube.com/@SecondhandBootcamp' target='_blank' rel='noreferrer'><button className='btnLanding'>YouTube Channel</button></a>
+
           </div>
         </div>
       </div>
