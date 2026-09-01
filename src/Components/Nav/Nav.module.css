@@ -21,11 +21,15 @@
     font-weight: 500;
     font-size: 22px;
     color: #D7B27B;
+    /* border: 5px solid transparent; */
+  /* display: block; */
+
   }
 
   .navigationBar a:hover {
     cursor: pointer;
     border-bottom: #61c9a8 1px solid;
+    box-sizing:border-box;
   }
 
   #logo:hover {

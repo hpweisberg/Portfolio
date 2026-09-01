@@ -23,6 +23,10 @@ const techStackFront = [
     name: 'Bootstrap',
     img: './icons8-bootstrap-96.png'
   },
+  {
+    name: 'Tailwind',
+    img: './tailwind.png'
+  },
 ]
 
 const techStackBack = [

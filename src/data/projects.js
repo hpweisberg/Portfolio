@@ -1,5 +1,13 @@
 const myProjects = [
   {
+    name: 'Chow',
+    description: 'Phone eats first in this social media app designed around raiting meals from the resutrants you vist. No longer will you need to ask friends for their recommendations, just follow them and seeing where they Chow down!',
+    screenshot: '/Chow-screen-shot2.png',
+    repoLink: 'https://github.com/hpweisberg/chow-app-front-end/',
+    deploymentLink: 'https://chow.yachts/',
+    tools: ['React', 'JavaScript', 'HTML', 'Tailwind', 'MongoDb']
+  },
+  {
     name: 'MAMBA',
     description: 'A take on the classic game of Snake. Players help NBA legend Kobe Bryant, aka, “Black Mamba” secure as many NBA Championship Trophies as possible without getting a technical foul!',
     screenshot: '/mamba.jpg',

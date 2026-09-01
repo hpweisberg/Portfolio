@@ -49,10 +49,21 @@
   width: 30em;
   border-radius: 5px;
   overflow: hidden;
+  transition: all;
+  transition: transform 0.3s;
 }
 
 .imageContainer > img {
   height: 20em;
+  transition: all;
+  transition: transform 0.3s;
+}
+
+.imageContainer:hover {
+  /* Add transform properties for hover effect */
+  /* transform: scale(1.05); Increase size on hover */
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow on hover */
 }
 
 .imageContainer:hover>p {
@@ -73,6 +84,8 @@
   letter-spacing: 0.51px;
   line-height: 2rem;
   z-index: 3;
+  transition: all;
+  
 }
 
 .imageContainer>p {
